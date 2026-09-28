@@ -1,0 +1,250 @@
+题名,CVE,端口,卡片路径,来源数
+apache  远程代码执行 （CVE-2021-42013）,CVE-2021-42013,80,cards/001_CVE-2021-42013_apache.md,7
+apache-kylin 命令执行 (CVE-2020-1956),CVE-2020-1956,"7070,8032,8042,8088,16010,50070",cards/002_CVE-2020-1956_apache-kylin.md,4
+apache-nifi-api 代码执行,,8080,cards/003_apache-nifi-api.md,4
+apache-shenyu（题库原标CVE-2021-38570；镜像对应CVE-2021-37580）,CVE-2021-37580,9095,cards/004_CVE-2021-37580_apache-shenyu.md,6
+Arm 64位 Debian环境,,5535,cards/005_arm64_debian_env.md,4
+Atlassian Jira 路径遍历 （CVE-2021-26086）,CVE-2021-26086,8080,cards/006_CVE-2021-26086_atlassian-jira.md,4
+bash 命令执行 （CVE-2014-6271）,CVE-2014-6271,80,cards/007_CVE-2014-6271_bash.md,4
+bodgeit 靶场,,8080,cards/008_bodgeit.md,5
+casdoor SQL注入（CVE-2022-24124）,CVE-2022-24124,8000,cards/009_CVE-2022-24124_casdoor.md,5
+cisco 代码执行 （CVE-2020-3331）,CVE-2020-3331,"80,6666",cards/010_CVE-2020-3331_cisco.md,3
+cmseasy 远程命令执行 （CNVD-2021-34045）,CNVD-2021-34045,"80,443",cards/011_CNVD-2021-34045_cmseasy.md,2
+coldfusion 代码执行 （CVE-2018-15961）,CVE-2018-15961,8500,cards/012_CVE-2018-15961_coldfusion.md,4
+coldfusion 代码执行 （CVE-2021-21087）,CVE-2021-21087,"80,8016,8500,45564",cards/013_CVE-2021-21087_coldfusion.md,2
+Confluence OGNL 注入 (CVE-2022-26134),CVE-2022-26134,"8090,8091",cards/014_CVE-2022-26134_confluence.md,3
+couchdb 权限绕过 （CVE-2017-12635）,CVE-2017-12635,"4369,5984,9100",cards/015_CVE-2017-12635_couchdb.md,3
+daemon-api 未授权访问,,2375,cards/016_daemon-api_unauthorized.md,4
+dedecms SQL注入 （CVE-2017-17731）,CVE-2017-17731,"80,3306",cards/017_CVE-2017-17731_dedecms.md,4
+dedecms 代码执行 (CNVD-2018-01221),CNVD-2018-01221,"80,3306",cards/018_CNVD-2018-01221_dedecms.md,4
+dedecms 远程文件包含 （CVE-2015-4553）,CVE-2015-4553,"80,3306",cards/019_CVE-2015-4553_dedecms.md,3
+domoticz  sql注入（CVE-2019-10664）,CVE-2019-10664,"31080,31443",cards/020_CVE-2019-10664_domoticz.md,3
+Druid 任意文件读取 （CVE-2021-36749）,CVE-2021-36749,8888,cards/021_CVE-2021-36749_druid.md,3
+drupal 远程代码执行 （CVE-2019-6339）,CVE-2019-6339,80,cards/022_CVE-2019-6339_drupal.md,4
+dubbo 代码执行 （CVE-2019-17564）,CVE-2019-17564,9999,cards/023_CVE-2019-17564_dubbo.md,5
+dubbo 代码执行 （CVE-2020-1948）,CVE-2020-1948,12345,cards/024_CVE-2020-1948_dubbo.md,6
+elasticsearch 代码执行 (CVE-2015-1427),CVE-2015-1427,"9200,9300",cards/025_CVE-2015-1427_elasticsearch.md,5
+empire 代码执行 （CVE-2018-19462）,CVE-2018-19462,"80,3306",cards/026_CVE-2018-19462_empire.md,3
+exim4 命令执行 （CVE-2020-28020）,CVE-2020-28020,"25,465,587",cards/027_CVE-2020-28020_exim4.md,4
+Fastjson 1.2.80 反序列化,,8090,cards/028_fastjson_1.2.80.md,3
+forgerok openam 代码执行 （CVE-2021-35464）,CVE-2021-35464,8080,cards/029_CVE-2021-35464_openam.md,6
+Fuelcms 远程代码执行 （CVE-2018-16763）,CVE-2018-16763,"80,3306",cards/030_CVE-2018-16763_fuelcms.md,5
+genixcms SQL注入 （CVE-2015-3933）,CVE-2015-3933,"80,3306",cards/031_CVE-2015-3933_genixcms.md,5
+Gerapy 远程代码执行 （CVE-2021-43857）,CVE-2021-43857,8000,cards/032_CVE-2021-43857_gerapy.md,4
+GhostScript 沙箱绕过（CVE-2018-16509）,CVE-2018-16509,8080,cards/033_CVE-2018-16509_ghostscript.md,5
+glzjin/upload-labs,,80,cards/034_glzjin-upload-labs.md,4
+goahead 变量注入 (CVE-2021-42342),CVE-2021-42342,80,cards/035_CVE-2021-42342_goahead.md,5
+GoCD 任意文件读取漏洞 (CVE-2021-43287),CVE-2021-43287,8153,cards/036_CVE-2021-43287_gocd.md,5
+grafana 目录遍历 （CVE-2021-43798）,CVE-2021-43798,3000,cards/037_CVE-2021-43798_grafana.md,3
+Grafana未授权任意文件读取,,3000,cards/038_grafana-read_arbitrary_file.md,5
+gxlcms 文件读取 （CVE-2018-14685）,CVE-2018-14685,"80,3306",cards/039_CVE-2018-14685_gxlcms.md,2
+h2database RCE（CVE-2022-23221）,CVE-2022-23221,"8082,9082",cards/040_CVE-2022-23221_h2database.md,6
+Hessian 反序列化,,8080,cards/041_hessian.md,1
+httpd 后缀解析,,80,cards/042_httpd-apache_parsing_vulnerability.md,3
+httpd-ssi 命令执行,,80,cards/043_httpd-ssi.md,2
+huawei HG532 远程命令执行 （CVE-2017-17215）,CVE-2017-17215,"5535,37215",cards/044_CVE-2017-17215_hg532.md,5
+imcat 远程代码执行 （CNVD-2020-32339）,CNVD-2020-32339,"80,3306",cards/045_CNVD-2020-32339_imcat.md,3
+jackson 代码执行 (CVE-2020-8840),CVE-2020-8840,8080,cards/046_CVE-2020-8840_jackson.md,5
+java-rmi-codebase 代码执行,,"1099,64000",cards/047_java-rmi-codebase.md,4
+java-rmi-registry-bind-deserialization 代码执行,,1099,cards/048_java-rmi-registry-bind-deserialization.md,5
+java-rmi-registry-bind-deserialization-bypass 代码执行,,1099,cards/049_java-rmi-registry-bind-deserialization-bypass.md,4
+jboss 反序列化 （CVE-2017-7504）,CVE-2017-7504,8080,cards/050_CVE-2017-7504_jboss.md,4
+jenkins 代码执行 （CVE-2017-1000353）,CVE-2017-1000353,"8080,50000",cards/051_CVE-2017-1000353_jenkins.md,7
+jetty 敏感信息泄露 （CVE-2021-28169）,CVE-2021-28169,8080,cards/052_CVE-2021-28169_jetty.md,7
+jetty 敏感信息泄露 (CVE-2021-34429),CVE-2021-34429,8080,cards/053_CVE-2021-34429_jetty.md,7
+joomla 注册流程账号接管（题库误标CVE-2016-9839；实际CVE-2016-9838）,CVE-2016-9838,80,cards/054_CVE-2016-9838_joomla.md,8
+joomla 远程代码执行 （CVE-2021-23132）,CVE-2021-23132,"80,3306",cards/055_CVE-2021-23132_joomla.md,5
+jquery 文件上传 （CVE-2018-9207）,CVE-2018-9207,80,cards/056_CVE-2018-9207_jquery.md,3
+junams 文件上传 （CNVD-2020-24741）,CNVD-2020-24741,"80,3306",cards/057_CNVD-2020-24741_junams.md,4
+jupyter-notebook XSSI（题库误标命令执行；CVE-2019-9644）,CVE-2019-9644,8888,cards/058_CVE-2019-9644_jupyter-notebook.md,3
+kindeditor 目录遍历 （CVE-2018-18950）,CVE-2018-18950,"80,3306",cards/059_CVE-2018-18950_kindeditor.md,3
+kylin  命令注入 （CVE-2021-45456）,CVE-2021-45456,7070,cards/060_CVE-2021-45456_kylin.md,5
+kylin 命令执行（CVE-2020-13925）,CVE-2020-13925,"7070,8032,8042,8088,16010,50070",cards/061_CVE-2020-13925_kylin.md,3
+log4j 代码执行 (CVE-2017-5645),CVE-2017-5645,,cards/062_CVE-2017-5645_log4j.md,3
+Metabase geojson任意文件读取漏洞 （CVE-2021-41277）,CVE-2021-41277,3000,cards/063_CVE-2021-41277_metabase.md,4
+MinIO SSRF （CVE-2021-21287）,CVE-2021-21287,9000,cards/064_CVE-2021-21287_minio.md,4
+mogodb 代码执行 （CVE-2013-1892）,CVE-2013-1892,27017,cards/065_CVE-2013-1892_mongodb.md,4
+msvod SQL注入 （CVE-2018-14418）,CVE-2018-14418,"80,3306",cards/066_CVE-2018-14418_msvod.md,3
+nagios 代码执行 (CVE-2016-9565),CVE-2016-9565,"25,80",cards/067_CVE-2016-9565_nagios.md,3
+nagiosxi SQL注入 （CVE-2018-10735）,CVE-2018-10735,"80,5666,5667",cards/068_CVE-2018-10735_nagiosxi.md,5
+nagiosxi SQL注入 （CVE-2018-10737）,CVE-2018-10737,"80,5666,5667",cards/069_CVE-2018-10737_nagiosxi.md,4
+Nexus Repository Manager3 EL注入（CVE-2018-16621）,CVE-2018-16621,8081,cards/070_CVE-2018-16621_nexus.md,4
+nexus 命令执行 （CVE-2020-10204）,CVE-2020-10204,8081,cards/071_CVE-2020-10204_nexus.md,4
+nexus 权限绕过 (CVE-2020-11444),CVE-2020-11444,8081,cards/072_CVE-2020-11444_nexus.md,2
+nexus 远程命令执行 （CVE-2019-5475）,CVE-2019-5475,"8080,8081",cards/073_CVE-2019-5475_nexus.md,5
+nginx,,80,,0
+Nginx 权限提升 （CVE-2016-1247）,CVE-2016-1247,80,cards/075_CVE-2016-1247_nginx.md,4
+nginx 信息泄露 （CVE-2017-7529）,CVE-2017-7529,"80,8080",cards/076_CVE-2017-7529_nginx.md,5
+Node.js 目录穿越漏洞（CVE-2017-14849）,CVE-2017-14849,3000,,0
+nodejs 代码执行 (CVE-2017-5941),CVE-2017-5941,80,,0
+nuxeo 命令执行 （CVE-2018-16341）,CVE-2018-16341,"8080,8787,9443",,0
+O2OA RCE 远程命令执行（CVE-2022-22916）,CVE-2022-22916,"80,20020,20030",,0
+ofbiz 反序列化（CVE-2021-30128）,CVE-2021-30128,8443,,0
+oklite 文件上传 （CVE-2019-16131）,CVE-2019-16131,"80,3306",,0
+Onlinebookstore 代码执行 （CVE-2020-24115）,CVE-2020-24115,"80,3306",,0
+opensmtpd 远程代码执行 （CVE-2020-7247）,CVE-2020-7247,25,,0
+pbootcms SQL注入 （CVE-2018-16356）,CVE-2018-16356,"80,3306",,0
+phpcollab SQL注入 （CVE-2017-6089）,CVE-2017-6089,"80,3306",,0
+phpok 文件上传 （CVE-2018-12491）,CVE-2018-12491,"80,3306",,0
+Piwigo SQL注入 （CVE-2022-26266）,CVE-2022-26266,"80,3306",,0
+primefaces  远程代码执行（CVE-2017-1000486）,CVE-2017-1000486,8080,,0
+python-pickle 命令执行,,8000,,0
+Ruby On Rails 路径遍历漏洞（CVE-2018-3760）,CVE-2018-3760,3000,,0
+ruby 命令执行 （CVE-2017-17405）,CVE-2017-17405,8080,,0
+salt 远程代码执行（CVE-2021-25281）,CVE-2021-25281,8000,,0
+shardingsphere 代码执行 （CVE-2020-1947）,CVE-2020-1947,"1389,2181,8000,8088",,0
+ShenYu 未授权访问 （CVE-2022-23944）,CVE-2022-23944,9095,,0
+shiro 权限绕过 （CVE-2020-11989）,CVE-2020-11989,8080,,0
+Shiro 授权绕过 （CVE-2022-32532）,CVE-2022-32532,8080,,0
+solr 上传代码 （CVE-2019-12409）,CVE-2019-12409,"8983,18983",,0
+spark 远程代码执行 （CVE-2020-9480）,CVE-2020-9480,"4040,6066,7077,7078,8080,8081,8888",,0
+Spring Data MongoDB SpEL Expression injection,CVE-2022-22890,8080,,0
+spring MVC_RFD 文件下载 （CVE-2020-5398）,CVE-2020-5398,8080,,0
+struts2 代码执行 （CVE-2021-31805）,CVE-2021-31805,8080,,0
+struts2 命令执行 （CVE-2013-1965）,CVE-2013-1965,8080,,0
+struts2 命令执行 （CVE-2013-1966）,CVE-2013-1966,8080,,0
+struts2 命令执行 （CVE-2013-2135）,CVE-2013-2135,8080,,0
+struts2 命令执行 （CVE-2013-2251）,CVE-2013-2251,8080,,0
+struts-s2-001 代码执行 （CVE-2007-4556）,CVE-2007-4556,8080,,0
+struts-s2-005 代码执行 （CVE-2010-1870）,CVE-2010-1870,8080,,0
+struts-s2-007 代码执行 （CVE-2012-0838）,CVE-2012-0838,8080,,0
+subrions SQL注入 （CVE-2017-11444）,CVE-2017-11444,"80,3306",,0
+supervisord 代码执行 (CVE-2017-11610),CVE-2017-11610,9001,,0
+tapestry 任意文件读取 （CVE-2019-0195）,CVE-2019-0195,8080,,0
+thinkphp lang 命令执行,,80,,0
+tomcat 反序列化 （CVE-2020-9484）,CVE-2020-9484,8080,,0
+typesetter 文件上传 （CVE-2020-25790）,CVE-2020-25790,"80,3306",,0
+ucms 远程命令执行 （CVE-2020-25483）,CVE-2020-25483,"80,3306",,0
+vulfocus/717-3,,80,,0
+vulfocus/apache-40438,,80,,0
+vulfocus/apache-cve_2018_11759,CVE-2018-11759,80,,0
+vulfocus/apache-cve_2021_41773,CVE-2021-41773,80,,0
+vulfocus/armel22,,5535,,0
+vulfocus/bwapp,,"80,3306",,0
+vulfocus/cuppacms-cve_2020_26048,CVE-2020-26048,"80,3306",,0
+vulfocus/discuzml-CVE-2019-13956,CVE-2019-13956,"80,3306",,0
+vulfocus/discuz-wooyun-2010-080723,wooyun-2010-080723; wooyun_2010,"80,3306",,0
+vulfocus/drupal-CVE-2018-7602,CVE-2018-7602,80,,0
+vulfocus/greencms-CVE-2018-12604,CVE-2018-12604,"80,9080",,0
+vulfocus/gxlcms-CVE-2018-14685,CVE-2018-14685,"80,3306",,0
+vulfocus/hackademic,,"80,3306",,0
+vulfocus/hadoop,,,,0
+vulfocus/jspwiki（CVE-2021-44140）,CVE-2021-44140,8080,,0
+vulfocus/juice-shop,,3000,,0
+vulfocus/log4j2-CVE-2021-4104,CVE-2021-4104,8080,,0
+vulfocus/log4j2-rce-2021-12-09,,8080,,0
+vulfocus/monstra-CVE-2020-13384,CVE-2020-13384,80,,0
+vulfocus/mutillidae,,"80,3306",,0
+vulfocus/nagios-cve_2018_8733,CVE-2018-8733,80,,0
+vulfocus/ofbiz-cve_2018_8033,CVE-2018-8033,"8080,8443",,0
+vulfocus/opentsdb-cev-2020-35476,,,,0
+vulfocus/php-ssrf,,80,,0
+vulfocus/rails-CVE-2018-3760,CVE-2018-3760,3000,,0
+vulfocus/rails-CVE-2019-5418,CVE-2019-5418,3000,,0
+vulfocus/shiro-CVE-2016-4437,CVE-2016-4437,8080,,0
+vulfocus/spring-cve_2016_4977,CVE-2016-4977,,,0
+vulfocus/spring-cve_2018_1270,CVE-2018-1270,8080,,0
+vulfocus/spring-CVE-2020-5410,CVE-2020-5410,"8888,9999",,0
+vulfocus/sqli-labs,,"80,3306",,0
+vulfocus/ssh-cve_2020_15778,CVE-2020-15778,22,,0
+vulfocus/struts2-CVE-2017-5638,CVE-2017-5638,8080,,0
+vulfocus/thinkphp-5.0.24,,80,,0
+vulfocus/vulfocus-api,,8000,,0
+vulfocus/vulfocus-web,,80,,0
+vulfocus/webgrind-CVE-2018-12909,CVE-2018-12909,80,,0
+vulfocus/weblogic-cve_2020_14883,CVE-2020-14883,"5556,7001",,0
+vulfocus/weblogic-CVE-2014-4210,CVE-2014-4210,"5556,7001",,0
+vulfocus/weblogic-CVE-2016-3510,CVE-2016-3510,"5556,7001,7002",,0
+vulfocus/weblogic-CVE-2017-3248,CVE-2017-3248,"5556,7001,7002",,0
+vulfocus/weblogic-CVE-2020-14750,CVE-2020-14750,"5556,7001,7002",,0
+vulfocus/weblogic-CVE-2020-14825,CVE-2020-14825,"5556,7001,7002",,0
+vulfocus/webmin-CVE-2019-15107,CVE-2019-15107,10000,,0
+vulfocus/webmin-CVE-2020-35606,CVE-2020-35606,10000,,0
+vulfocus/wordpress-cve_2019_8942:latest,CVE-2019-8942,"80,443",,0
+vulfocus/wordpress-CVE-2014-5201,CVE-2014-5201,"80,3306",,0
+vulfocus/wordpress-CVE-2018-13137,CVE-2018-13137,"80,443",,0
+vulfocus/wordpress-CVE-2019-15866,CVE-2019-15866,"80,3306,8025",,0
+vulfocus/wuzhicms-CVE-2018-11528,CVE-2018-11528,"80,9080",,0
+vulfocus/xdebug-rce,,80,,0
+vulfocus/xss-labs,,"80,3306",,0
+vulfocus/zabbix-CVE-2022-23131,CVE-2022-23131,80,,0
+webgrind 文件读取 （CVE-2018-12909）,CVE-2018-12909,80,,0
+webmin 远程代码执行 （CVE-2019-15642）,CVE-2019-15642,10000,,0
+Webmin 远程代码执行 （CVE-2022-0824）,CVE-2022-0824,10000,,0
+wordpress  存储型XSS （ CVE-2018-13137 ）,CVE-2018-13137,"80,3306,8025",,0
+wordpress CSRF （CVE-2022-23983）,CVE-2022-23983,"80,3306",,0
+wordpress SQL注入 （CVE-2022-0228）,CVE-2022-0228,"80,3306",,0
+wordpress 垂直越权 （CVE=2021-21389）,CVE-2021-21389,"80,3306",,0
+wordpress 文件包含 （CVE-2018-7422）,CVE-2018-7422,80,,0
+wordpress 文件上传  （CNVD-2020-50280）,CNVD-2020-50280,"80,3306",,0
+wordpress 文件下载 （CVE-2019-19985）,CVE-2019-19985,"80,3306,8025",,0
+wordpress 远程代码执行 （CVE-2019-8942）,CVE-2019-8942,"80,443",,0
+wordpress 远程命令执行 （CVE-2018-15877）,CVE-2018-15877,"80,3306",,0
+wordpress任意文件上传（CVE-2019-15866）,CVE-2019-15866,"80,3306,8025",,0
+wordpress远程代码执行（CVE-2019-8942）,CVE-2019-8942,"80,3306,8025",,0
+yapi 代码执行,,"3000,27017",,0
+youdiancms 9.5.0 版本 SQL注入 （CVE-2022-32300）,CVE-2022-32300,"80,3306",,0
+youphptube  SQL注入 （CVE-2019-5120）,CVE-2019-5120,"80,3306",,0
+youphptube SQL注入 （CVE-2019-18662）,CVE-2019-18662,"80,3306",,0
+youphptube 命令执行 （CVE-2019-5128）,CVE-2019-5128,"80,3306",,0
+Zimbra 任意文件读取漏洞 （CVE-2019-9670）,CVE-2019-9670,"22,25,80,110,143,443,465,587,993,995,7071,8080,8443",,0
+Zimbra 文件读取导致Getshell （CVE-2013-7091）,CVE-2013-7091,"22,25,80,110,143,443,465,587,993,995,7071,8080,8443",,0
+activemq 远程代码执行 （CVE-2016-3088）,CVE-2016-3088,"8161,61616",,0
+atlassian-crowd 命令执行 （CVE-2019-11580）,CVE-2019-11580,8095,,0
+coldfision 代码执行 （CVE-2017-3066）,CVE-2017-3066,8500,,0
+dcrcms 文件上传 （CNVD-2020-27175）,CNVD-2020-27175,"80,3306",,0
+discuz 命令执行 （wooyun-2010-080723）,wooyun-2010-080723; wooyun_2010,"80,3306",,0
+django SQL注入（CVE-2019-14234）,CVE-2019-14234,8000,,0
+druid 远程命令执行 （CVE-2021-25646）,CVE-2021-25646,"2181,2888,3888,8081,8082,8083,8090,8888",,0
+drupal 代码执行 (CVE-2017-6920),CVE-2017-6920,"80,443",,0
+empirecms 文件上传 （CVE-2018-18086）,CVE-2018-18086,"80,3306",,0
+flink 文件写入 (CVE-2020-17518),CVE-2020-17518,"6123,8081",,0
+getsimple 远程代码执行 （CVE-2019-11231）,CVE-2019-11231,"80,3306",,0
+gitlab 命令执行 （CVE-2021-22205）,CVE-2021-22205,"22,80,443",cards/01_CVE-2021-22205_gitlab.md,3
+jackson-databind 反序列化 （CVE-2017-7525）,CVE-2017-7525,8080,,0
+jboss 代码执行 (CVE-2017-12149),CVE-2017-12149,8080,,0
+jboss 反序列化 （CVE-2015-7501）,CVE-2015-7501,8080,,0
+joomla SQL注入 （CVE-2015-7857）,CVE-2015-7857,"80,3306",,0
+joomla SQL注入 （CVE-2018-7314）,CVE-2018-7314,"80,3306",,0
+laravel 信息泄露 (CVE-2017-16894),CVE-2017-16894,80,,0
+laravel 远程代码执行 （CVE-2021-3129）,CVE-2021-3129,80,,0
+libssh 身份验证绕过（CVE-2018-10933）,CVE-2018-10933,22,,0
+netflix SSRF （CVE-2020-5412）,CVE-2020-5412,"8077,8080",,0
+nexus 代码执行 (CVE-2019-7238),CVE-2019-7238,8081,,0
+nginx 命令执行 (CVE-2021-23017),CVE-2021-23017,80,,0
+ofbiz 反序列化 （CVE-2021-26295）,CVE-2021-26295,"8080,8443",,0
+ofbiz 远程代码执行 (CVE-2020-9496),CVE-2020-9496,8443,,0
+openssh 信息泄露 (CVE-2018-15473),CVE-2018-15473,22,,0
+Rails 代码注入（CVE-2020-8163）,CVE-2020-8163,4000,,0
+rails 任意文件读取 （CVE-2019-5418）,CVE-2019-5418,3000,,0
+Redis Lua沙盒绕过 命令执行（CVE-2022-0543）,CVE-2022-0543,6379,cards/02_CVE-2022-0543_redis.md,2
+redis 未授权访问 (CNVD-2019-21763),CNVD-2019-21763,6379,,0
+SaltStack 认证绕过（CVE-2020-11651）,CVE-2020-11651,"22,4505,4506,8000",,0
+saltstack 远程命令执行 (CVE-2020-16846),CVE-2020-16846,"22,4505,4506,8000",,0
+shiro-721 代码执行,,8080,,0
+showdoc 文件上传 （cnvd-2020-26585）,CNVD-2020-26585,"80,3306",,0
+skywalking SQL注入 （CVE-2020-9483）,CVE-2020-9483,8080,,0
+spring 代码执行 (CVE-2017-4971),CVE-2017-4971,8080,,0
+spring 代码执行 (CVE-2017-8046),CVE-2017-8046,8080,,0
+spring-boot-whitelabel-spel,,9090,,0
+struts2 代码执行 （CVE-2020-17530）,CVE-2020-17530,8080,,0
+thinkadmin 目录遍历 （CVE-2020-25540）,CVE-2020-25540,"80,3306,8000",,0
+thinkcmf 代码执行 （CVE-2019-7580）,CVE-2019-7580,"80,3306",,0
+thinkphp3.2.x 代码执行,,"80,3306",,0
+tomcat 文件上传 (CVE-2017-12615),CVE-2017-12615,8080,cards/03_CVE-2017-12615_tomcat.md,4
+vulfocus/dvwa,,"80,3306",,0
+vulfocus/pikachu,,"80,3306",,0
+weblogic 文件上传 （CVE-2018-2894）,CVE-2018-2894,7001,,0
+Weblogic 远程代码执行 （CVE-2018-2893）,CVE-2018-2893,"5556,7001",,0
+weblogic 远程代码执行 （CVE-2020-14882）,CVE-2020-14882,7001,cards/04_CVE-2020-14882_weblogic.md,3
+webmin 代码执行 （CVE-2021-31760）,CVE-2021-31760,10000,,0
+wordpress 代码执行 （CVE-2019-8943）,CVE-2019-8943,"80,443",,0
+wordpress 命令执行 （CVE-2016-10033）,CVE-2016-10033,"80,443",,0
+xstream 代码执行 (CVE-2021-21351),CVE-2021-21351,8080,,0
+xstream 反序列化 （CVE-2021-39144）,CVE-2021-39144,8080,,0
+xstream 远程代码执行 （CVE-2021-29505）,CVE-2021-29505,"8008,8080",,0
+zabbix 代码执行 （CVE-2020-11800）,CVE-2020-11800,"80,10050,10051",,0
+zabbix 命令注入 （CVE-2017-2824）,CVE-2017-2824,"80,10050,10051",,0
+zentaopms-9.1.2-sql SQL注入,,"80,3306",,0
+shiro 权限绕过（CVE-2020-1957）,CVE-2020-1957,8080,cards/05_CVE-2020-1957_shiro.md,3
+Websvn 命令注入 （CVE-2021-32305）,CVE-2021-32305,80,,0

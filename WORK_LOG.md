@@ -107,6 +107,16 @@
 - 来源 5 个：技术复现、GitHub PoC、360CERT、Nginx 官方安全公告、NVD。未实测、未写 Flag。
 - 用户此前给出的博客园链接核对为 Tomcat CVE-2017-12615，不作为第076题来源。
 
+### 第077题｜Node.js CVE-2017-14849
+
+- 整理 Node.js 8.5.0 与 Express/Send 静态目录穿越链路，保留 `/static` 挂载前缀及 `curl --path-as-is` 关键点。
+- 来源 5 个：Node.js 官方公告、腾讯安全分析、博客园复现、Vulhub README、ProjectDiscovery Nuclei 模板。未实测、未写 Flag。
+
+### 第078题｜node-serialize CVE-2017-5941
+
+- 整理 `unserialize()` 接收不可信数据后触发 IIFE 的公开复现链，附 Base64 Cookie 请求示例和服务端日志成功信号；示例入口按来源标注，不冒充题目已确认接口。
+- 来源 3 个：专业技术复现、GitHub 官方漏洞公告、上游 PoC/Issue。未实测、未写 Flag。
+
 ## 工作约定
 
 - 卡片只总结直接相关技术复现、PoC 与官方资料；不保存原文、不做靶场实测、不写 Flag。

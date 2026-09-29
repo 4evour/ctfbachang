@@ -99,31 +99,31 @@
 098,solr 上传代码 （CVE-2019-12409）,CVE-2019-12409,已整理：官方定性为默认 JMX RMI（非 HTTP 上传）；18983,4,题库原标上传代码已按 CVE-2019-12409 校正
 099,spark 远程代码执行 （CVE-2020-9480）,CVE-2020-9480,已整理：Standalone Master 认证绕过 RPC；REST 提交仅作辅助,4,第079–100题本批已完成；继续按题库顺序整理第101题
 100,Spring Data MongoDB SpEL Expression injection,CVE-2022-22890,已整理：题库 CVE-2022-22890 对应官方 CVE-2022-22980 SpEL,3,编号已对照 Spring 公告校正；继续第101题
-101,spring MVC_RFD 文件下载 （CVE-2020-5398）,CVE-2020-5398,待整理,0,读取本题CSV行和对应来源；提炼卡片
-102,struts2 代码执行 （CVE-2021-31805）,CVE-2021-31805,待整理,0,读取本题CSV行和对应来源；提炼卡片
-103,struts2 命令执行 （CVE-2013-1965）,CVE-2013-1965,待整理,0,读取本题CSV行和对应来源；提炼卡片
-104,struts2 命令执行 （CVE-2013-1966）,CVE-2013-1966,待整理,0,读取本题CSV行和对应来源；提炼卡片
-105,struts2 命令执行 （CVE-2013-2135）,CVE-2013-2135,待整理,0,读取本题CSV行和对应来源；提炼卡片
-106,struts2 命令执行 （CVE-2013-2251）,CVE-2013-2251,待整理,0,读取本题CSV行和对应来源；提炼卡片
-107,struts-s2-001 代码执行 （CVE-2007-4556）,CVE-2007-4556,待整理,0,读取本题CSV行和对应来源；提炼卡片
-108,struts-s2-005 代码执行 （CVE-2010-1870）,CVE-2010-1870,待整理,0,读取本题CSV行和对应来源；提炼卡片
-109,struts-s2-007 代码执行 （CVE-2012-0838）,CVE-2012-0838,待整理,0,读取本题CSV行和对应来源；提炼卡片
-110,subrions SQL注入 （CVE-2017-11444）,CVE-2017-11444,待整理,0,读取本题CSV行和对应来源；提炼卡片
-111,supervisord 代码执行 (CVE-2017-11610),CVE-2017-11610,待整理,0,读取本题CSV行和对应来源；提炼卡片
-112,tapestry 任意文件读取 （CVE-2019-0195）,CVE-2019-0195,待整理,0,读取本题CSV行和对应来源；提炼卡片
-113,thinkphp lang 命令执行,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-114,tomcat 反序列化 （CVE-2020-9484）,CVE-2020-9484,待整理,0,读取本题CSV行和对应来源；提炼卡片
-115,typesetter 文件上传 （CVE-2020-25790）,CVE-2020-25790,待整理,0,读取本题CSV行和对应来源；提炼卡片
-116,ucms 远程命令执行 （CVE-2020-25483）,CVE-2020-25483,待整理,0,读取本题CSV行和对应来源；提炼卡片
-117,vulfocus/717-3,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-118,vulfocus/apache-40438,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-119,vulfocus/apache-cve_2018_11759,CVE-2018-11759,待整理,0,读取本题CSV行和对应来源；提炼卡片
-120,vulfocus/apache-cve_2021_41773,CVE-2021-41773,待整理,0,读取本题CSV行和对应来源；提炼卡片
-121,vulfocus/armel22,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-122,vulfocus/bwapp,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-123,vulfocus/cuppacms-cve_2020_26048,CVE-2020-26048,待整理,0,读取本题CSV行和对应来源；提炼卡片
-124,vulfocus/discuzml-CVE-2019-13956,CVE-2019-13956,待整理,0,读取本题CSV行和对应来源；提炼卡片
-125,vulfocus/discuz-wooyun-2010-080723,wooyun-2010-080723; wooyun_2010,待整理,0,读取本题CSV行和对应来源；提炼卡片
+101,spring MVC_RFD 文件下载 （CVE-2020-5398）,CVE-2020-5398,已整理：Spring MVC/WebFlux RFD filename 引号注入,4,继续整理第102题
+102,struts2 代码执行 （CVE-2021-31805）,CVE-2021-31805,已整理：Struts2 S2-062 BeanMap 强制 OGNL,4,继续整理第103题
+103,struts2 命令执行 （CVE-2013-1965）,CVE-2013-1965,已整理：Struts2 S2-012 redirect 二次 OGNL,4,继续整理第104题
+104,struts2 命令执行 （CVE-2013-1966）,CVE-2013-1966,已整理：Struts2 S2-013 includeParams OGNL,4,继续整理第105题
+105,struts2 命令执行 （CVE-2013-2135）,CVE-2013-2135,已整理：Struts2 S2-015 通配符 Action 名 OGNL,4,继续整理第106题
+106,struts2 命令执行 （CVE-2013-2251）,CVE-2013-2251,已整理：Struts2 S2-016 redirect: 前缀 OGNL,4,继续整理第107题
+107,struts-s2-001 代码执行 （CVE-2007-4556）,CVE-2007-4556,已整理：Struts2 S2-001 校验失败递归 OGNL（NVD CVE-2007-4556 为 XWork）,4,继续整理第108题
+108,struts-s2-005 代码执行 （CVE-2010-1870）,CVE-2010-1870,已整理：Struts2 S2-005 参数名 \u0023 OGNL,4,继续整理第109题
+109,struts-s2-007 代码执行 （CVE-2012-0838）,CVE-2012-0838,已整理：Struts2 S2-007 age 引号闭合 OGNL,4,继续整理第110题
+110,subrions SQL注入 （CVE-2017-11444）,CVE-2017-11444,已整理：Subrion members.json GET 键名 SQL 注入,3,继续整理第111题
+111,supervisord 代码执行 (CVE-2017-11610),CVE-2017-11610,已整理：Supervisord XML-RPC linecache.os.system,4,继续整理第112题
+112,tapestry 任意文件读取 （CVE-2019-0195）,CVE-2019-0195,已整理：Tapestry classpath 资产读取 AppModule.class,3,继续整理第113题
+113,thinkphp lang 命令执行,,已整理：ThinkPHP lang LFI 至 pearcmd 写文件（无 CVE）,4,继续整理第114题
+114,tomcat 反序列化 （CVE-2020-9484）,CVE-2020-9484,已整理：Tomcat FileStore JSESSIONID 反序列化,4,继续整理第115题
+115,typesetter 文件上传 （CVE-2020-25790）,CVE-2020-25790,已整理：Typesetter ZIP 解压绕过上传 PHP,4,继续整理第116题
+116,ucms 远程命令执行 （CVE-2020-25483）,CVE-2020-25483,已整理：UCMS 后台 fileedit 写 PHP,3,继续整理第117题
+117,vulfocus/717-3,,待补链路：镜像无描述、未找到与 717-3/717_3 直接对应的题解/PoC,1,不编造利用链；继续整理第118题
+118,vulfocus/apache-40438,CVE-2021-40438,已整理：Apache mod_proxy unix: SSRF（题名 apache-40438=CVE-2021-40438）,4,继续整理第119题
+119,vulfocus/apache-cve_2018_11759,CVE-2018-11759,已整理：mod_jk /jkstatus; 访问控制绕过,4,继续整理第120题
+120,vulfocus/apache-cve_2021_41773,CVE-2021-41773,已整理：Apache 2.4.49 .%2e 路径穿越/CGI RCE,4,继续整理第121题
+121,vulfocus/armel22,,已整理：armel22 ARM EABI 环境/架构识别（非漏洞链）,5,继续整理第122题
+122,vulfocus/bwapp,,已整理：bWAPP 多漏洞练习入口（bee/bug、portal/low）,4,继续整理第123题
+123,vulfocus/cuppacms-cve_2020_26048,CVE-2020-26048,已整理：CuppaCMS 认证后上传图片再 rename 为 PHP,3,继续整理第124题
+124,vulfocus/discuzml-CVE-2019-13956,CVE-2019-13956,已整理：Discuz!ML language Cookie 注入 phpinfo,3,继续整理第125题
+125,vulfocus/discuz-wooyun-2010-080723,wooyun-2010-080723; wooyun_2010,已整理：Discuz 6/7 Cookie 覆盖 GLOBALS smilies /e,3,继续按题库顺序整理第126题
 126,vulfocus/drupal-CVE-2018-7602,CVE-2018-7602,已整理：Drupalgeddon3 已认证 #post_render RCE,5,第126–150题本批已完成；继续按题库顺序整理第151题
 127,vulfocus/greencms-CVE-2018-12604,CVE-2018-12604,已整理：GreenCMS Data/Log 日志文件泄露（非 RCE）,4,第126–150题本批已完成；继续按题库顺序整理第151题
 128,vulfocus/gxlcms-CVE-2018-14685,CVE-2018-14685,已整理：Gxlcms Tpl-ADD |/* 占位文件读取（同 039）,2,第126–150题本批已完成；继续按题库顺序整理第151题

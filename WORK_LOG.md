@@ -228,6 +228,39 @@
 - 081：ysoserial 重定向注明需 PowerShell 7.4+ 或二进制安全写法。
 - 092：`curl.exe` URL 改为单引号，避免 PowerShell 展开 `${IFS}`。
 
+## 本轮新增/核对记录（2026-09-29｜第101–125题）
+
+第079–100题已由其他分支（PR #1 / `cursor/cards-079-100-445e`）完成并合入，本轮**不重做**；下一批从第101题起。
+
+### 第101–125题｜批量整理
+
+- 按题库顺序新建 25 张卡片与对应 `sources/<目录>/_meta.md`；统一回写 `index.csv`、`batches/progress.csv`。未实测、未写 Flag。
+- **101** Spring MVC RFD（CVE-2020-5398）：`filename` 引号注入；来源 4。
+- **102** S2-062（CVE-2021-31805）：multipart `id` BeanMap；来源 4。
+- **103** S2-012（CVE-2013-1965）：redirect `${name}`；来源 4。
+- **104** S2-013（CVE-2013-1966）：`includeParams` / `link.action?a=`；来源 4。
+- **105** S2-015（CVE-2013-2135，公告同时登记 CVE-2013-2134）：通配符 Action 名 OGNL；来源 4。
+- **106** S2-016（CVE-2013-2251）：`redirect:` 前缀；来源 4。
+- **107** S2-001：NVD CVE-2007-4556 为 XWork/Struts altSyntax 递归 OGNL，**不采用**后来误绑到 Python tarfile 的同编号链；来源 4。
+- **108** S2-005（CVE-2010-1870）：参数名 `\u0023`；来源 4。
+- **109** S2-007：Apache 公告当时 CVE 为 “-”，NVD 登记 **CVE-2012-0838**，与题库一致；来源 4。
+- **110** Subrion（CVE-2017-11444）：`/search/members.json` GET **键名**注入；来源 3。
+- **111** Supervisord（CVE-2017-11610）：`POST /RPC2` + `linecache.os.system`；来源 4。
+- **112** Tapestry（CVE-2019-0195）：classpath `AppModule.class`，不是 `/etc/passwd`，不混用 CVE-2021-27850；来源 3。
+- **113** ThinkPHP lang：无 CVE；`lang` LFI + pearcmd `config-create`；镜像 `vulfocus/thinkphp:6.0.12`；来源 4。
+- **114** Tomcat（CVE-2020-9484）：FileStore，`JSESSIONID` 不要带 `.session` 后缀；来源 4。
+- **115** Typesetter（CVE-2020-25790）：后台 ZIP 解压绕过；来源 4。
+- **116** UCMS（CVE-2020-25483）：后台 `sadmin_fileedit` 写 PHP；来源 3。
+- **117** `vulfocus/717-3`：Hub 实际为 `717_3`、描述为空；**待补链路**，不套 Twonky/phpstudy；来源 1。
+- **118** 题名 `apache-40438`：校正为 **CVE-2021-40438**；Hub 镜像 `httpd_cve-2021-40438`；`unix:` 超长路径 SSRF；来源 4。
+- **119** CVE-2018-11759：`/jkstatus;` 绕过；来源 4。
+- **120** CVE-2021-41773：仅 2.4.49、`.%2e`、必须 `--path-as-is`，不与第001题 `.%%32%65` 混用；来源 4。
+- **121** `armel22`：ARM EABI 环境识别（端口 5535），区别 armhf/arm64；来源 5。
+- **122** bWAPP：教学靶场，`bee`/`bug`、portal/low；来源 4。
+- **123** CuppaCMS（CVE-2020-26048）：认证上传 jpg 再改 rename 的 `to:`；不采用后续未授权上传 issue；来源 3。
+- **124** Discuz!ML（CVE-2019-13956）：`{cookiepre}language=en'.phpinfo().';`；来源 3。
+- **125** wooyun-2010-080723：Cookie 覆盖 `GLOBALS[_DCACHE][smilies]` + `preg_replace /e`；来源 3。
+
 ## 本轮新增/核对记录（2026-09-29｜第126–150题）
 
 按题库顺序整理 25 道待整理题（跳过 079–125）。未实测、未写 Flag、不下载整篇原文。编号/题名与公开资料不一致时按 CVE 校正，不编造利用链。

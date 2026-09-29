@@ -99,31 +99,31 @@ Shiro 授权绕过 （CVE-2022-32532）,CVE-2022-32532,8080,cards/097_CVE-2022-3
 solr 上传代码 （CVE-2019-12409）,CVE-2019-12409,"8983,18983",cards/098_CVE-2019-12409_solr.md,4
 spark 远程代码执行 （CVE-2020-9480）,CVE-2020-9480,"4040,6066,7077,7078,8080,8081,8888",cards/099_CVE-2020-9480_spark.md,4
 Spring Data MongoDB SpEL Expression injection,CVE-2022-22890,8080,cards/100_CVE-2022-22890_spring-data-mongodb.md,3
-spring MVC_RFD 文件下载 （CVE-2020-5398）,CVE-2020-5398,8080,,0
-struts2 代码执行 （CVE-2021-31805）,CVE-2021-31805,8080,,0
-struts2 命令执行 （CVE-2013-1965）,CVE-2013-1965,8080,,0
-struts2 命令执行 （CVE-2013-1966）,CVE-2013-1966,8080,,0
-struts2 命令执行 （CVE-2013-2135）,CVE-2013-2135,8080,,0
-struts2 命令执行 （CVE-2013-2251）,CVE-2013-2251,8080,,0
-struts-s2-001 代码执行 （CVE-2007-4556）,CVE-2007-4556,8080,,0
-struts-s2-005 代码执行 （CVE-2010-1870）,CVE-2010-1870,8080,,0
-struts-s2-007 代码执行 （CVE-2012-0838）,CVE-2012-0838,8080,,0
-subrions SQL注入 （CVE-2017-11444）,CVE-2017-11444,"80,3306",,0
-supervisord 代码执行 (CVE-2017-11610),CVE-2017-11610,9001,,0
-tapestry 任意文件读取 （CVE-2019-0195）,CVE-2019-0195,8080,,0
-thinkphp lang 命令执行,,80,,0
-tomcat 反序列化 （CVE-2020-9484）,CVE-2020-9484,8080,,0
-typesetter 文件上传 （CVE-2020-25790）,CVE-2020-25790,"80,3306",,0
-ucms 远程命令执行 （CVE-2020-25483）,CVE-2020-25483,"80,3306",,0
-vulfocus/717-3,,80,,0
-vulfocus/apache-40438,,80,,0
-vulfocus/apache-cve_2018_11759,CVE-2018-11759,80,,0
-vulfocus/apache-cve_2021_41773,CVE-2021-41773,80,,0
-vulfocus/armel22,,5535,,0
-vulfocus/bwapp,,"80,3306",,0
-vulfocus/cuppacms-cve_2020_26048,CVE-2020-26048,"80,3306",,0
-vulfocus/discuzml-CVE-2019-13956,CVE-2019-13956,"80,3306",,0
-vulfocus/discuz-wooyun-2010-080723,wooyun-2010-080723; wooyun_2010,"80,3306",,0
+spring MVC_RFD 文件下载 （CVE-2020-5398）,CVE-2020-5398,8080,cards/101_CVE-2020-5398_spring-mvc.md,4
+struts2 代码执行 （CVE-2021-31805）,CVE-2021-31805,8080,cards/102_CVE-2021-31805_struts2.md,4
+struts2 命令执行 （CVE-2013-1965）,CVE-2013-1965,8080,cards/103_CVE-2013-1965_struts2.md,4
+struts2 命令执行 （CVE-2013-1966）,CVE-2013-1966,8080,cards/104_CVE-2013-1966_struts2.md,4
+struts2 命令执行 （CVE-2013-2135）,CVE-2013-2135,8080,cards/105_CVE-2013-2135_struts2.md,4
+struts2 命令执行 （CVE-2013-2251）,CVE-2013-2251,8080,cards/106_CVE-2013-2251_struts2.md,4
+struts-s2-001 代码执行 （CVE-2007-4556）,CVE-2007-4556,8080,cards/107_CVE-2007-4556_struts2.md,4
+struts-s2-005 代码执行 （CVE-2010-1870）,CVE-2010-1870,8080,cards/108_CVE-2010-1870_struts2.md,4
+struts-s2-007 代码执行 （CVE-2012-0838）,CVE-2012-0838,8080,cards/109_CVE-2012-0838_struts2.md,4
+subrions SQL注入 （CVE-2017-11444）,CVE-2017-11444,"80,3306",cards/110_CVE-2017-11444_subrion.md,3
+supervisord 代码执行 (CVE-2017-11610),CVE-2017-11610,9001,cards/111_CVE-2017-11610_supervisord.md,4
+tapestry 任意文件读取 （CVE-2019-0195）,CVE-2019-0195,8080,cards/112_CVE-2019-0195_tapestry.md,3
+thinkphp lang 命令执行,,80,cards/113_thinkphp_lang.md,4
+tomcat 反序列化 （CVE-2020-9484）,CVE-2020-9484,8080,cards/114_CVE-2020-9484_tomcat.md,4
+typesetter 文件上传 （CVE-2020-25790）,CVE-2020-25790,"80,3306",cards/115_CVE-2020-25790_typesetter.md,4
+ucms 远程命令执行 （CVE-2020-25483）,CVE-2020-25483,"80,3306",cards/116_CVE-2020-25483_ucms.md,3
+vulfocus/717-3,,80,cards/117_vulfocus_717-3.md,1
+vulfocus/apache-40438,CVE-2021-40438,80,cards/118_CVE-2021-40438_apache.md,4
+vulfocus/apache-cve_2018_11759,CVE-2018-11759,80,cards/119_CVE-2018-11759_apache.md,4
+vulfocus/apache-cve_2021_41773,CVE-2021-41773,80,cards/120_CVE-2021-41773_apache.md,4
+vulfocus/armel22,,5535,cards/121_armel22.md,5
+vulfocus/bwapp,,"80,3306",cards/122_bwapp.md,4
+vulfocus/cuppacms-cve_2020_26048,CVE-2020-26048,"80,3306",cards/123_CVE-2020-26048_cuppacms.md,3
+vulfocus/discuzml-CVE-2019-13956,CVE-2019-13956,"80,3306",cards/124_CVE-2019-13956_discuzml.md,3
+vulfocus/discuz-wooyun-2010-080723,wooyun-2010-080723; wooyun_2010,"80,3306",cards/125_wooyun-2010-080723_discuz.md,3
 vulfocus/drupal-CVE-2018-7602,CVE-2018-7602,80,cards/126_CVE-2018-7602_drupal.md,5
 vulfocus/greencms-CVE-2018-12604,CVE-2018-12604,"80,9080",cards/127_CVE-2018-12604_greencms.md,4
 vulfocus/gxlcms-CVE-2018-14685,CVE-2018-14685,"80,3306",cards/128_CVE-2018-14685_gxlcms.md,2

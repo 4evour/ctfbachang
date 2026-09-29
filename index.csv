@@ -149,56 +149,56 @@ vulfocus/sqli-labs,,"80,3306",cards/147_sqli-labs.md,4
 vulfocus/ssh-cve_2020_15778,CVE-2020-15778,22,cards/148_CVE-2020-15778_ssh.md,6
 vulfocus/struts2-CVE-2017-5638,CVE-2017-5638,8080,cards/149_CVE-2017-5638_struts2.md,4
 vulfocus/thinkphp-5.0.24,,80,cards/150_thinkphp-5.0.24.md,6
-vulfocus/vulfocus-api,,8000,,0
-vulfocus/vulfocus-web,,80,,0
-vulfocus/webgrind-CVE-2018-12909,CVE-2018-12909,80,,0
-vulfocus/weblogic-cve_2020_14883,CVE-2020-14883,"5556,7001",,0
-vulfocus/weblogic-CVE-2014-4210,CVE-2014-4210,"5556,7001",,0
-vulfocus/weblogic-CVE-2016-3510,CVE-2016-3510,"5556,7001,7002",,0
-vulfocus/weblogic-CVE-2017-3248,CVE-2017-3248,"5556,7001,7002",,0
-vulfocus/weblogic-CVE-2020-14750,CVE-2020-14750,"5556,7001,7002",,0
-vulfocus/weblogic-CVE-2020-14825,CVE-2020-14825,"5556,7001,7002",,0
-vulfocus/webmin-CVE-2019-15107,CVE-2019-15107,10000,,0
-vulfocus/webmin-CVE-2020-35606,CVE-2020-35606,10000,,0
-vulfocus/wordpress-cve_2019_8942:latest,CVE-2019-8942,"80,443",,0
-vulfocus/wordpress-CVE-2014-5201,CVE-2014-5201,"80,3306",,0
-vulfocus/wordpress-CVE-2018-13137,CVE-2018-13137,"80,443",,0
-vulfocus/wordpress-CVE-2019-15866,CVE-2019-15866,"80,3306,8025",,0
-vulfocus/wuzhicms-CVE-2018-11528,CVE-2018-11528,"80,9080",,0
-vulfocus/xdebug-rce,,80,,0
-vulfocus/xss-labs,,"80,3306",,0
-vulfocus/zabbix-CVE-2022-23131,CVE-2022-23131,80,,0
-webgrind 文件读取 （CVE-2018-12909）,CVE-2018-12909,80,,0
-webmin 远程代码执行 （CVE-2019-15642）,CVE-2019-15642,10000,,0
-Webmin 远程代码执行 （CVE-2022-0824）,CVE-2022-0824,10000,,0
-wordpress  存储型XSS （ CVE-2018-13137 ）,CVE-2018-13137,"80,3306,8025",,0
-wordpress CSRF （CVE-2022-23983）,CVE-2022-23983,"80,3306",,0
-wordpress SQL注入 （CVE-2022-0228）,CVE-2022-0228,"80,3306",,0
-wordpress 垂直越权 （CVE=2021-21389）,CVE-2021-21389,"80,3306",,0
-wordpress 文件包含 （CVE-2018-7422）,CVE-2018-7422,80,,0
-wordpress 文件上传  （CNVD-2020-50280）,CNVD-2020-50280,"80,3306",,0
-wordpress 文件下载 （CVE-2019-19985）,CVE-2019-19985,"80,3306,8025",,0
-wordpress 远程代码执行 （CVE-2019-8942）,CVE-2019-8942,"80,443",,0
-wordpress 远程命令执行 （CVE-2018-15877）,CVE-2018-15877,"80,3306",,0
-wordpress任意文件上传（CVE-2019-15866）,CVE-2019-15866,"80,3306,8025",,0
-wordpress远程代码执行（CVE-2019-8942）,CVE-2019-8942,"80,3306,8025",,0
-yapi 代码执行,,"3000,27017",,0
-youdiancms 9.5.0 版本 SQL注入 （CVE-2022-32300）,CVE-2022-32300,"80,3306",,0
-youphptube  SQL注入 （CVE-2019-5120）,CVE-2019-5120,"80,3306",,0
-youphptube SQL注入 （CVE-2019-18662）,CVE-2019-18662,"80,3306",,0
-youphptube 命令执行 （CVE-2019-5128）,CVE-2019-5128,"80,3306",,0
-Zimbra 任意文件读取漏洞 （CVE-2019-9670）,CVE-2019-9670,"22,25,80,110,143,443,465,587,993,995,7071,8080,8443",,0
-Zimbra 文件读取导致Getshell （CVE-2013-7091）,CVE-2013-7091,"22,25,80,110,143,443,465,587,993,995,7071,8080,8443",,0
-activemq 远程代码执行 （CVE-2016-3088）,CVE-2016-3088,"8161,61616",,0
-atlassian-crowd 命令执行 （CVE-2019-11580）,CVE-2019-11580,8095,,0
-coldfision 代码执行 （CVE-2017-3066）,CVE-2017-3066,8500,,0
-dcrcms 文件上传 （CNVD-2020-27175）,CNVD-2020-27175,"80,3306",,0
-discuz 命令执行 （wooyun-2010-080723）,wooyun-2010-080723; wooyun_2010,"80,3306",,0
-django SQL注入（CVE-2019-14234）,CVE-2019-14234,8000,,0
-druid 远程命令执行 （CVE-2021-25646）,CVE-2021-25646,"2181,2888,3888,8081,8082,8083,8090,8888",,0
-drupal 代码执行 (CVE-2017-6920),CVE-2017-6920,"80,443",,0
-empirecms 文件上传 （CVE-2018-18086）,CVE-2018-18086,"80,3306",,0
-flink 文件写入 (CVE-2020-17518),CVE-2020-17518,"6123,8081",,0
+vulfocus/vulfocus-api,,8000,cards/151_vulfocus-api.md,4
+vulfocus/vulfocus-web,,80,cards/152_vulfocus-web.md,4
+vulfocus/webgrind-CVE-2018-12909,CVE-2018-12909,80,cards/153_CVE-2018-12909_webgrind.md,4
+vulfocus/weblogic-cve_2020_14883（公开链为 CVE-2020-14882+14883）,CVE-2020-14883,"5556,7001",cards/154_CVE-2020-14883_weblogic.md,5
+vulfocus/weblogic-CVE-2014-4210,CVE-2014-4210,"5556,7001",cards/155_CVE-2014-4210_weblogic.md,4
+vulfocus/weblogic-CVE-2016-3510,CVE-2016-3510,"5556,7001,7002",cards/156_CVE-2016-3510_weblogic.md,4
+vulfocus/weblogic-CVE-2017-3248,CVE-2017-3248,"5556,7001,7002",cards/157_CVE-2017-3248_weblogic.md,5
+vulfocus/weblogic-CVE-2020-14750,CVE-2020-14750,"5556,7001,7002",cards/158_CVE-2020-14750_weblogic.md,4
+vulfocus/weblogic-CVE-2020-14825,CVE-2020-14825,"5556,7001,7002",cards/159_CVE-2020-14825_weblogic.md,5
+vulfocus/webmin-CVE-2019-15107,CVE-2019-15107,10000,cards/160_CVE-2019-15107_webmin.md,4
+vulfocus/webmin-CVE-2020-35606,CVE-2020-35606,10000,cards/161_CVE-2020-35606_webmin.md,4
+vulfocus/wordpress-cve_2019_8942:latest,CVE-2019-8942,"80,443",cards/162_CVE-2019-8942_wordpress.md,4
+vulfocus/wordpress-CVE-2014-5201,CVE-2014-5201,"80,3306",cards/163_CVE-2014-5201_wordpress.md,2
+vulfocus/wordpress-CVE-2018-13137,CVE-2018-13137,"80,443",cards/164_CVE-2018-13137_wordpress.md,4
+vulfocus/wordpress-CVE-2019-15866,CVE-2019-15866,"80,3306,8025",cards/165_CVE-2019-15866_wordpress.md,4
+vulfocus/wuzhicms-CVE-2018-11528,CVE-2018-11528,"80,9080",cards/166_CVE-2018-11528_wuzhicms.md,3
+vulfocus/xdebug-rce,,80,cards/167_xdebug-rce.md,3
+vulfocus/xss-labs,,"80,3306",cards/168_xss-labs.md,4
+vulfocus/zabbix-CVE-2022-23131,CVE-2022-23131,80,cards/169_CVE-2022-23131_zabbix.md,4
+webgrind 文件读取 （CVE-2018-12909）,CVE-2018-12909,80,cards/170_CVE-2018-12909_webgrind.md,3
+webmin 远程代码执行 （CVE-2019-15642）,CVE-2019-15642,10000,cards/171_CVE-2019-15642_webmin.md,5
+Webmin 远程代码执行 （CVE-2022-0824）,CVE-2022-0824,10000,cards/172_CVE-2022-0824_webmin.md,4
+wordpress  存储型XSS （ CVE-2018-13137 ）,CVE-2018-13137,"80,3306,8025",cards/173_CVE-2018-13137_wordpress.md,4
+wordpress CSRF （CVE-2022-23983）,CVE-2022-23983,"80,3306",cards/174_CVE-2022-23983_wordpress.md,3
+wordpress SQL注入 （CVE-2022-0228）,CVE-2022-0228,"80,3306",cards/175_CVE-2022-0228_wordpress.md,4
+wordpress 垂直越权（题库原标 CVE=2021-21389；校正 CVE-2021-21389）,CVE-2021-21389,"80,3306",cards/176_CVE-2021-21389_wordpress.md,3
+wordpress 文件包含 （CVE-2018-7422）,CVE-2018-7422,80,cards/177_CVE-2018-7422_wordpress.md,3
+wordpress 文件上传  （CNVD-2020-50280）,CNVD-2020-50280; CVE-2020-25213,"80,3306",cards/178_CNVD-2020-50280_wordpress.md,4
+wordpress 文件下载 （CVE-2019-19985）,CVE-2019-19985,"80,3306,8025",cards/179_CVE-2019-19985_wordpress.md,4
+wordpress 远程代码执行 （CVE-2019-8942）,CVE-2019-8942,"80,443",cards/180_CVE-2019-8942_wordpress.md,4
+wordpress 远程命令执行 （CVE-2018-15877）,CVE-2018-15877,"80,3306",cards/181_CVE-2018-15877_wordpress.md,5
+wordpress任意文件上传（CVE-2019-15866）,CVE-2019-15866,"80,3306,8025",cards/182_CVE-2019-15866_wordpress.md,3
+wordpress远程代码执行（CVE-2019-8942）,CVE-2019-8942,"80,3306,8025",cards/183_CVE-2019-8942_wordpress.md,4
+yapi 代码执行,,"3000,27017",cards/184_yapi.md,6
+youdiancms 9.5.0 版本 SQL注入 （CVE-2022-32300）,CVE-2022-32300,"80,3306",cards/185_CVE-2022-32300_youdiancms.md,4
+youphptube  SQL注入 （CVE-2019-5120）,CVE-2019-5120,"80,3306",cards/186_CVE-2019-5120_youphptube.md,3
+youphptube SQL注入 （CVE-2019-18662）,CVE-2019-18662,"80,3306",cards/187_CVE-2019-18662_youphptube.md,4
+youphptube 命令执行 （CVE-2019-5128）,CVE-2019-5128,"80,3306",cards/188_CVE-2019-5128_youphptube.md,4
+Zimbra 任意文件读取漏洞 （CVE-2019-9670）,CVE-2019-9670,"22,25,80,110,143,443,465,587,993,995,7071,8080,8443",cards/189_CVE-2019-9670_zimbra.md,5
+Zimbra 文件读取导致Getshell （CVE-2013-7091）,CVE-2013-7091,"22,25,80,110,143,443,465,587,993,995,7071,8080,8443",cards/190_CVE-2013-7091_zimbra.md,5
+activemq 远程代码执行 （CVE-2016-3088）,CVE-2016-3088,"8161,61616",cards/191_CVE-2016-3088_activemq.md,4
+atlassian-crowd 命令执行 （CVE-2019-11580）,CVE-2019-11580,8095,cards/192_CVE-2019-11580_crowd.md,4
+coldfision 代码执行 （CVE-2017-3066）（题名误拼 ColdFusion）,CVE-2017-3066,8500,cards/193_CVE-2017-3066_coldfusion.md,4
+dcrcms 文件上传 （CNVD-2020-27175）,CNVD-2020-27175,"80,3306",cards/194_CNVD-2020-27175_dcrcms.md,4
+discuz 命令执行 （wooyun-2010-080723）,wooyun-2010-080723; wooyun_2010,"80,3306",cards/195_wooyun-2010-080723_discuz.md,3
+django SQL注入（CVE-2019-14234）,CVE-2019-14234,8000,cards/196_CVE-2019-14234_django.md,4
+druid 远程命令执行 （CVE-2021-25646）,CVE-2021-25646,"2181,2888,3888,8081,8082,8083,8090,8888",cards/197_CVE-2021-25646_druid.md,4
+drupal 代码执行 (CVE-2017-6920),CVE-2017-6920,"80,443",cards/198_CVE-2017-6920_drupal.md,4
+empirecms 文件上传 （CVE-2018-18086）,CVE-2018-18086,"80,3306",cards/199_CVE-2018-18086_empirecms.md,4
+flink 文件写入 (CVE-2020-17518),CVE-2020-17518,"6123,8081",cards/200_CVE-2020-17518_flink.md,4
 getsimple 远程代码执行 （CVE-2019-11231）,CVE-2019-11231,"80,3306",cards/201_CVE-2019-11231_getsimple.md,5
 gitlab 命令执行 （CVE-2021-22205）,CVE-2021-22205,"22,80,443",cards/01_CVE-2021-22205_gitlab.md,3
 jackson-databind 反序列化 （CVE-2017-7525）,CVE-2017-7525,8080,cards/203_CVE-2017-7525_jackson.md,6

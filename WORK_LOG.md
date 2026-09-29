@@ -117,9 +117,120 @@
 - 整理 `unserialize()` 接收不可信数据后触发 IIFE 的公开复现链，附 Base64 Cookie 请求示例和服务端日志成功信号；示例入口按来源标注，不冒充题目已确认接口。
 - 来源 3 个：专业技术复现、GitHub 官方漏洞公告、上游 PoC/Issue。未实测、未写 Flag。
 
-## 本轮新增/核对记录（2026-09-29）
+## 本轮新增/核对记录（2026-09-29｜第079–100题）
 
-第079–100题已由其他分支（PR #1 / `cursor/cards-079-100-445e`）完成，本轮**不重做**；进度表里若仍显示待整理，以该 PR 为准，下一批从第101题起。
+按题库顺序整理 22 道待整理题。未实测、未写 Flag、不下载整篇原文。编号/题名与公开资料不一致时按 CVE 校正，不编造利用链。
+
+### 第079题｜Nuxeo CVE-2018-16341
+
+- 完成 `login.jsp/` 前缀绕过 + Facelet 不存在即解析的 SSTI 链；算术探测与 Runtime EL 均要求百分号编码。
+- 来源 4 个：发现者分析、mpgn PoC、Nuxeo NXP-25746 提交、NVD。
+
+### 第080题｜O2OA CVE-2022-22916
+
+- 完成后台 `Authorization` + `/x_program_center/jaxrs/invoke` 创建/execute 两步。默认口令以 NVD 收录 PoC 的 `xadmin/o2` 为主，并注明较新文档的 `o2oa@2022`。
+- 来源 4 个。
+
+### 第081题｜OFBiz CVE-2021-30128
+
+- 完成 SOAPService + ysoserial CommonsBeanutils1 三处类名 `<java.短名` 改写；与 26295/9496 区分。
+- 来源 4 个：分析、阿里云致谢文、EXP、Apache oss-security。
+
+### 第082题｜OKLite CVE-2019-16131
+
+- 完成后台模块导入 ZIP 解压到 `data/cache/`；与插件子目录链分开。
+- 来源 4 个。账号题库未给，不编造。
+
+### 第083题｜Online Book Store CVE-2020-24115
+
+- 题库标「代码执行」；NVD 为硬编码凭据。卡片只整理 SQL/默认 Admin Login，不把 `edit_book.php` 上传写成这条 CVE。
+- 来源 3 个。
+
+### 第084题｜OpenSMTPD CVE-2020-7247
+
+- 完成 Qualys MAIL FROM `;read;sh` + DATA 注释滑梯链；标明远程需 “uncommented” 监听。
+- 来源 3 个。
+
+### 第085题｜PbootCMS CVE-2018-16356
+
+- 采用 Vulfocus 同题题解：启用 API 后打 `api.php/List/index?order=` + `updatexml`/`md5(1954)`。不套用后续 3.x 搜索框注入。
+- 来源 4 个。
+
+### 第086题｜phpCollab CVE-2017-6089
+
+- 三处未授权删除接口；与 login.php 老洞区分。
+- 来源 3 个。
+
+### 第087题｜PHPOK CVE-2018-12491
+
+- 只整理 4.9.032 的 `framework/admin/modulec_control.php` → `import_f`（含 PHP 的 ZIP 解到 `data/cache/`）。
+- 4.8.338 附件分类链标为 CVE-2018-8944；4.9.015 ZIP 解压链标为 CVE-2018-19562；两者不计本题来源、不作 12491 依据。
+- 来源 2 个。
+
+### 第088题｜Piwigo CVE-2022-26266
+
+- 后台 `pwg.users.getList` 的 `order`；与 CVE-2022-32297 二次注入区分。
+- 来源 3 个（NVD 引用的 JCCD 页检索时 404，步骤以分析文为准）。
+
+### 第089题｜PrimeFaces CVE-2017-1000486
+
+- `pfdrid` + 默认 secret `primefaces`；口令非默认时走 Padding Oracle。
+- 来源 3 个。
+
+### 第090题｜python-pickle（无 CVE）
+
+- 未找到 Vulfocus 本题镜像专属题解。附 Vulhub Flask `user` Cookie pickle 链，并标明入口未确认。来源 2 个。
+
+### 第091题｜Rails CVE-2018-3760
+
+- Sprockets 报错取允许目录 + `%252e%252e/`。来源 3 个。
+
+### 第092题｜Ruby CVE-2017-17405
+
+- Net::FTP `Kernel#open` + `|` 文件名；公开 `/download` 路由未由本题镜像确认。来源 3 个。
+
+### 第093题｜Salt CVE-2021-25281
+
+- 本题是 `wheel_async` 未授权；完整 RCE 需拼 25282/25283。来源 4 个。
+
+### 第094题｜ShardingSphere CVE-2020-1947
+
+- `/api/schema` 的 `dataSourceConfiguration` SnakeYAML + JdbcRowSetImpl。来源 4 个。
+
+### 第095题｜ShenYu CVE-2022-23944
+
+- 只整理 `GET /plugin` 未授权，与第004题 CVE-2021-37580 区分。来源 4 个。
+
+### 第096题｜Shiro CVE-2020-11989
+
+- 分号 context-path 与 `%25%32%66` 双重编码两条。来源 3 个。
+
+### 第097题｜Shiro CVE-2022-32532
+
+- `RegExPatternMatcher` + `%0a`/`%0d`；含 Vulfocus 镜像复现。来源 4 个。
+
+### 第098题｜Solr CVE-2019-12409
+
+- 题库标「上传代码」；实际为 Linux 默认 JMX RMI 18983。来源 4 个。
+
+### 第099题｜Spark CVE-2020-9480
+
+- 官方是 standalone + `spark.authenticate` 的 RPC 绕过；REST `/v1/submissions/create` 仅作公开辅助并加限制说明。来源 4 个。
+
+### 第100题｜Spring Data MongoDB SpEL
+
+- 题库/镜像编号 CVE-2022-22890，官方同一问题为 CVE-2022-22980。按 `@Query` SpEL + `name=` 复现整理。来源 3 个。
+
+## PR #1 评审修正（079–100）
+
+- 087：收敛到 CVE-2018-12491 的 4.9.032 `import_f`；8944 / 19562 只在来源清单标号，不计来源。
+- 089：受影响区间改为 4.0–4.0.24、5.0–5.2.20、5.3–5.3.7；5.2.21 / 5.3.8 / 6.0 为已修复。
+- 081：ysoserial 重定向注明需 PowerShell 7.4+ 或二进制安全写法。
+- 092：`curl.exe` URL 改为单引号，避免 PowerShell 展开 `${IFS}`。
+
+## 本轮新增/核对记录（2026-09-29｜第101–125题）
+
+第079–100题已由其他分支（PR #1 / `cursor/cards-079-100-445e`）完成并合入，本轮**不重做**；下一批从第101题起。
 
 ### 第101–125题｜批量整理
 

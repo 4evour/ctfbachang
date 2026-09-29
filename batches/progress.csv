@@ -199,52 +199,52 @@
 198,drupal 代码执行 (CVE-2017-6920),CVE-2017-6920,已整理：配置导入 !php/object YAML,4,第198题完成；继续按题库顺序整理第199题
 199,empirecms 文件上传 （CVE-2018-18086）,CVE-2018-18086,已整理：后台导入模型 include .mod,4,第199题完成；继续按题库顺序整理第200题
 200,flink 文件写入 (CVE-2020-17518),CVE-2020-17518,已整理：/jars/upload filename 穿越写文件,4,第151–200题本批完成；第079–150由其他 PR 负责，不重做；继续第201题
-201,getsimple 远程代码执行 （CVE-2019-11231）,CVE-2019-11231,待整理,0,读取本题CSV行和对应来源；提炼卡片
+201,getsimple 远程代码执行 （CVE-2019-11231）,CVE-2019-11231,已整理：XML泄露+伪造Cookie+theme-edit 写PHP,5,第201–249题本批整理中；冻结202/219/233/238/248
 202,gitlab 命令执行 （CVE-2021-22205）,CVE-2021-22205,已有卡片；冻结，不纳入本轮返工,3,除非用户提出修改或发现具体事实错误，否则不返工
-203,jackson-databind 反序列化 （CVE-2017-7525）,CVE-2017-7525,待整理,0,读取本题CSV行和对应来源；提炼卡片
-204,jboss 代码执行 (CVE-2017-12149),CVE-2017-12149,待整理,0,读取本题CSV行和对应来源；提炼卡片
-205,jboss 反序列化 （CVE-2015-7501）,CVE-2015-7501,待整理,0,读取本题CSV行和对应来源；提炼卡片
-206,joomla SQL注入 （CVE-2015-7857）,CVE-2015-7857,待整理,0,读取本题CSV行和对应来源；提炼卡片
-207,joomla SQL注入 （CVE-2018-7314）,CVE-2018-7314,待整理,0,读取本题CSV行和对应来源；提炼卡片
-208,laravel 信息泄露 (CVE-2017-16894),CVE-2017-16894,待整理,0,读取本题CSV行和对应来源；提炼卡片
-209,laravel 远程代码执行 （CVE-2021-3129）,CVE-2021-3129,待整理,0,读取本题CSV行和对应来源；提炼卡片
-210,libssh 身份验证绕过（CVE-2018-10933）,CVE-2018-10933,待整理,0,读取本题CSV行和对应来源；提炼卡片
-211,netflix SSRF （CVE-2020-5412）,CVE-2020-5412,待整理,0,读取本题CSV行和对应来源；提炼卡片
-212,nexus 代码执行 (CVE-2019-7238),CVE-2019-7238,待整理,0,读取本题CSV行和对应来源；提炼卡片
-213,nginx 命令执行 (CVE-2021-23017),CVE-2021-23017,待整理,0,读取本题CSV行和对应来源；提炼卡片
-214,ofbiz 反序列化 （CVE-2021-26295）,CVE-2021-26295,待整理,0,读取本题CSV行和对应来源；提炼卡片
-215,ofbiz 远程代码执行 (CVE-2020-9496),CVE-2020-9496,待整理,0,读取本题CSV行和对应来源；提炼卡片
-216,openssh 信息泄露 (CVE-2018-15473),CVE-2018-15473,待整理,0,读取本题CSV行和对应来源；提炼卡片
-217,Rails 代码注入（CVE-2020-8163）,CVE-2020-8163,待整理,0,读取本题CSV行和对应来源；提炼卡片
-218,rails 任意文件读取 （CVE-2019-5418）,CVE-2019-5418,待整理,0,读取本题CSV行和对应来源；提炼卡片
+203,jackson-databind 反序列化 （CVE-2017-7525）,CVE-2017-7525,已整理：default typing TemplatesImpl（非8840/17485）,6,继续整理第204题
+204,jboss 代码执行 (CVE-2017-12149),CVE-2017-12149,已整理：/invoker/readonly CC5 反序列化,4,继续整理第205题
+205,jboss 反序列化 （CVE-2015-7501）,CVE-2015-7501,已整理：/invoker/JMXInvokerServlet Commons Collections,5,继续整理第206题
+206,joomla SQL注入 （CVE-2015-7857）,CVE-2015-7857,已整理：com_contenthistory list[select] 未认证SQLi,5,继续整理第207题
+207,joomla SQL注入 （CVE-2018-7314）,CVE-2018-7314,待补组件：官方为PrayerCenter sessionid，非核心com_fields,4,镜像是否含com_prayercenter待补；不套CVE-2017-8917
+208,laravel 信息泄露 (CVE-2017-16894),CVE-2017-16894,已整理：未认证 GET /.env,4,继续整理第209题
+209,laravel 远程代码执行 （CVE-2021-3129）,CVE-2021-3129,已整理：Ignition execute-solution log/PHAR,6,继续整理第210题
+210,libssh 身份验证绕过（CVE-2018-10933）,CVE-2018-10933,已整理：libssh MSG_USERAUTH_SUCCESS（非OpenSSH）,5,继续整理第211题
+211,netflix SSRF （CVE-2020-5412）,CVE-2020-5412,已整理：Hystrix /proxy.stream?origin= SSRF,5,继续整理第212题
+212,nexus 代码执行 (CVE-2019-7238),CVE-2019-7238,已整理：previewAssets JEXL（非ExifTool）,5,继续整理第213题
+213,nginx 命令执行 (CVE-2021-23017),CVE-2021-23017,已整理：官方为resolver DNS溢出（非HTTP命令执行）；HTTP链待补,6,不编造HTTP RCE；继续第214题
+214,ofbiz 反序列化 （CVE-2021-26295）,CVE-2021-26295,已整理：SOAPService RMI反序列化（非XML-RPC/30128）,5,继续整理第215题
+215,ofbiz 远程代码执行 (CVE-2020-9496),CVE-2020-9496,已整理：XML-RPC serializable CommonsBeanutils1,5,继续整理第216题
+216,openssh 信息泄露 (CVE-2018-15473),CVE-2018-15473,已整理：用户名枚举（非RCE）,5,继续整理第217题
+217,Rails 代码注入（CVE-2020-8163）,CVE-2020-8163,已整理：render locals键名注入（非Marshal）；镜像参数名待补,5,继续整理第218题
+218,rails 任意文件读取 （CVE-2019-5418）,CVE-2019-5418,已整理：Accept头读文件（与第142题同CVE）,4,继续整理第220题；219冻结
 219,Redis Lua沙盒绕过 命令执行（CVE-2022-0543）,CVE-2022-0543,已有卡片；冻结，不纳入本轮返工,2,除非用户提出修改或发现具体事实错误，否则不返工
-220,redis 未授权访问 (CNVD-2019-21763),CNVD-2019-21763,待整理,0,读取本题CSV行和对应来源；提炼卡片
-221,SaltStack 认证绕过（CVE-2020-11651）,CVE-2020-11651,待整理,0,读取本题CSV行和对应来源；提炼卡片
-222,saltstack 远程命令执行 (CVE-2020-16846),CVE-2020-16846,待整理,0,读取本题CSV行和对应来源；提炼卡片
-223,shiro-721 代码执行,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-224,showdoc 文件上传 （cnvd-2020-26585）,CNVD-2020-26585,待整理,0,读取本题CSV行和对应来源；提炼卡片
-225,skywalking SQL注入 （CVE-2020-9483）,CVE-2020-9483,待整理,0,读取本题CSV行和对应来源；提炼卡片
-226,spring 代码执行 (CVE-2017-4971),CVE-2017-4971,待整理,0,读取本题CSV行和对应来源；提炼卡片
-227,spring 代码执行 (CVE-2017-8046),CVE-2017-8046,待整理,0,读取本题CSV行和对应来源；提炼卡片
-228,spring-boot-whitelabel-spel,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-229,struts2 代码执行 （CVE-2020-17530）,CVE-2020-17530,待整理,0,读取本题CSV行和对应来源；提炼卡片
-230,thinkadmin 目录遍历 （CVE-2020-25540）,CVE-2020-25540,待整理,0,读取本题CSV行和对应来源；提炼卡片
-231,thinkcmf 代码执行 （CVE-2019-7580）,CVE-2019-7580,待整理,0,读取本题CSV行和对应来源；提炼卡片
-232,thinkphp3.2.x 代码执行,,待整理,0,读取本题CSV行和对应来源；提炼卡片
+220,redis 未授权访问 (CNVD-2019-21763),CNVD-2019-21763,已整理：4.x+ module/rogue replica（非crontab/4335）,5,继续整理第221题
+221,SaltStack 认证绕过（CVE-2020-11651）,CVE-2020-11651,已整理：ZeroMQ ClearFuncs（非salt-api/25281）,5,继续整理第222题
+222,saltstack 远程命令执行 (CVE-2020-16846),CVE-2020-16846,已整理：salt-api /run ssh_priv 注入（串25592）,4,223–232已整理
+223,shiro-721 代码执行,CVE-2019-12422,已整理：rememberMe Padding Oracle（题库无CVE，对应12422）,6,继续整理第224题
+224,showdoc 文件上传 （cnvd-2020-26585）,CNVD-2020-26585,已整理：uploadImg 未授权 <>php 上传,6,继续整理第225题
+225,skywalking SQL注入 （CVE-2020-9483）,CVE-2020-9483,已整理：GraphQL getLinearIntValues id 注入,5,继续整理第226题
+226,spring 代码执行 (CVE-2017-4971),CVE-2017-4971,已整理：Web Flow 确认页 _ 前缀 SpEL（非4977）,5,继续整理第227题
+227,spring 代码执行 (CVE-2017-8046),CVE-2017-8046,已整理：Data REST PATCH json-patch path SpEL,5,继续整理第228题
+228,spring-boot-whitelabel-spel,,已整理：/article?id=${} Whitelabel SpEL,5,继续整理第229题
+229,struts2 代码执行 （CVE-2020-17530）,CVE-2020-17530,已整理：S2-061 multipart id OGNL（非S2-059）,5,继续整理第230题
+230,thinkadmin 目录遍历 （CVE-2020-25540）,CVE-2020-25540,已整理：api.Update node/get encode,5,继续整理第231题
+231,thinkcmf 代码执行 （CVE-2019-7580）,CVE-2019-7580,已整理：后台 alias 写 route.php（非 fetch）,6,继续整理第232题
+232,thinkphp3.2.x 代码执行,,已整理：日志写入 + value[_filename]（非TP5/TP2）,6,第223–232题本批已完成
 233,tomcat 文件上传 (CVE-2017-12615),CVE-2017-12615,已有卡片；冻结，不纳入本轮返工,4,除非用户提出修改或发现具体事实错误，否则不返工
-234,vulfocus/dvwa,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-235,vulfocus/pikachu,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-236,weblogic 文件上传 （CVE-2018-2894）,CVE-2018-2894,待整理,0,读取本题CSV行和对应来源；提炼卡片
-237,Weblogic 远程代码执行 （CVE-2018-2893）,CVE-2018-2893,待整理,0,读取本题CSV行和对应来源；提炼卡片
+234,vulfocus/dvwa,,已整理：DVWA setup/admin-password/low 多漏洞练习,5,继续整理第235题
+235,vulfocus/pikachu,,已整理：Pikachu 初始化+菜单练习（无全站口令）,5,继续整理第236题
+236,weblogic 文件上传 （CVE-2018-2894）,CVE-2018-2894,已整理：ws_utc 上传（非wls-wsat/14882）,4,继续整理第237题
+237,Weblogic 远程代码执行 （CVE-2018-2893）,CVE-2018-2893,已整理：T3 StreamMessageImpl（7001，非5556）,6,238冻结；继续第239题
 238,weblogic 远程代码执行 （CVE-2020-14882）,CVE-2020-14882,已有卡片；冻结，不纳入本轮返工,3,已补充与另一实例实战记录的区别；冻结，不纳入本轮返工
-239,webmin 代码执行 （CVE-2021-31760）,CVE-2021-31760,待整理,0,读取本题CSV行和对应来源；提炼卡片
-240,wordpress 代码执行 （CVE-2019-8943）,CVE-2019-8943,待整理,0,读取本题CSV行和对应来源；提炼卡片
-241,wordpress 命令执行 （CVE-2016-10033）,CVE-2016-10033,待整理,0,读取本题CSV行和对应来源；提炼卡片
-242,xstream 代码执行 (CVE-2021-21351),CVE-2021-21351,待整理,0,读取本题CSV行和对应来源；提炼卡片
-243,xstream 反序列化 （CVE-2021-39144）,CVE-2021-39144,待整理,0,读取本题CSV行和对应来源；提炼卡片
-244,xstream 远程代码执行 （CVE-2021-29505）,CVE-2021-29505,待整理,0,读取本题CSV行和对应来源；提炼卡片
-245,zabbix 代码执行 （CVE-2020-11800）,CVE-2020-11800,待整理,0,读取本题CSV行和对应来源；提炼卡片
-246,zabbix 命令注入 （CVE-2017-2824）,CVE-2017-2824,待整理,0,读取本题CSV行和对应来源；提炼卡片
-247,zentaopms-9.1.2-sql SQL注入,,待整理,0,读取本题CSV行和对应来源；提炼卡片
+239,webmin 代码执行 （CVE-2021-31760）,CVE-2021-31760,已整理：官方为已登录CSRF/run.cgi（非未授权RCE）,5,继续整理第240题
+240,wordpress 代码执行 （CVE-2019-8943）,CVE-2019-8943,已整理：crop 路径穿越；完整RCE常拼8942；账号待补,5,继续整理第241题
+241,wordpress 命令执行 （CVE-2016-10033）,CVE-2016-10033,已整理：lostpassword+Host+Exim；用户名/MTA待补,4,继续整理第242题
+242,xstream 代码执行 (CVE-2021-21351),CVE-2021-21351,已整理：sorted-set JdbcRowSetImpl JNDI,4,继续整理第243题
+243,xstream 反序列化 （CVE-2021-39144）,CVE-2021-39144,待补镜像/路由：官方sun.tracing XML；Hub镜像未找到,3,不套21351/29505 XML
+244,xstream 远程代码执行 （CVE-2021-29505）,CVE-2021-29505,已整理：JRMP RegistryImpl_Stub（勿用官网错误XML）,4,8008待补；继续第245题
+245,zabbix 代码执行 （CVE-2020-11800）,CVE-2020-11800,已整理：trapper IPv6 ip 绕过（10051，非HTTP）,4,继续整理第246题
+246,zabbix 命令注入 （CVE-2017-2824）,CVE-2017-2824,已整理：trapper ;cmd + scriptid=1（非IPv6/SAML）,4,继续整理第247题
+247,zentaopms-9.1.2-sql SQL注入,,已整理：9.1.2 block orderBy 堆叠（非16.5登录框）,4,无CVE/CNVD编号；继续第249题
 248,shiro 权限绕过（CVE-2020-1957）,CVE-2020-1957,已有卡片；冻结，不纳入本轮返工,3,Shiro 主命令已补 --path-as-is；冻结，不纳入本轮返工
-249,Websvn 命令注入 （CVE-2021-32305）,CVE-2021-32305,待整理,0,读取本题CSV行和对应来源；提炼卡片
+249,Websvn 命令注入 （CVE-2021-32305）,CVE-2021-32305,已整理：search.php?search= 命令注入（非path）,5,第201–249题本批完成（冻结题未返工）

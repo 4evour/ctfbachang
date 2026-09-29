@@ -1,4 +1,4 @@
-# OWASP Mutillidae II 综合漏洞练习
+# 136｜OWASP Mutillidae II 综合漏洞练习
 
 > **先走应用菜单：**按本实例左侧 OWASP Top 10 / 练习页逐项处理；先做登录 SQL 注入、DNS Lookup 命令注入，再用页面自带 Hints。Mutillidae II 是多漏洞训练应用，不是单一 CVE。[S1][S2][S3]
 

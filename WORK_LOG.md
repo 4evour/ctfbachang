@@ -228,6 +228,135 @@
 - 081：ysoserial 重定向注明需 PowerShell 7.4+ 或二进制安全写法。
 - 092：`curl.exe` URL 改为单引号，避免 PowerShell 展开 `${IFS}`。
 
+## 本轮新增/核对记录（2026-09-29｜第126–150题）
+
+按题库顺序整理 25 道待整理题（跳过 079–125）。未实测、未写 Flag、不下载整篇原文。编号/题名与公开资料不一致时按 CVE 校正，不编造利用链。
+
+### 第126题｜Drupal CVE-2018-7602
+
+- 完成已认证 Drupalgeddon3：`destination` 二次编码 `%2523` + `_triggering_element_name=form_id` 缓存表单，再 `file/ajax` 触发 `#post_render`。与未登录 7600 `user/register` 区分。
+- 来源 5 个。
+
+### 第127题｜GreenCMS CVE-2018-12604
+
+- 完成未授权 `Data/Log/YY_MM_DD.log` 日志读取；标明不是 RCE、也不是 CVE-2018-19376。
+- 来源 4 个。
+
+### 第128题｜Gxlcms CVE-2018-14685
+
+- 与第039题同一 CVE：`s=Admin-Tpl-ADD-id-` + `|`/`*` 占位读 Runtime 配置/安装 SQL。为本镜像另建卡片。
+- 来源 2 个。
+
+### 第129题｜Hackademic（无 CVE）
+
+- 按 OWASP 10 关练习整理，不编单一 RCE。未找到 Vulfocus 专属 WP；与 VulnHub RTB1 区分。
+- 来源 9 个。
+
+### 第130题｜Hadoop（无 CVE）
+
+- 题库无端口。Hub compose 与平台题解确认 YARN RM REST `8088`：new-application 再提交 `am-container-spec.commands`。
+- 来源 5 个。
+
+### 第131题｜JSPWiki CVE-2021-44140
+
+- 官方定性为 Logout `JSPWikiUID` 任意文件删除，不是上传/RCE。镜像 workDir 待补，不套公开 Docker 路径。
+- 来源 6 个。
+
+### 第132题｜Juice Shop（无 CVE）
+
+- 先找隐藏 Score Board，再按本实例清单做登录注入 / 后台 / DOM XSS。不编单一 RCE。
+- 来源 5 个。
+
+### 第133题｜Log4j CVE-2021-4104
+
+- 只整理 Log4j **1.2** `JMSAppender` + 写配置；禁止抄 Log4Shell `${jndi:...}`。本题镜像 HTTP 入口待补。
+- 来源 5 个。
+
+### 第134题｜log4j2-rce-2021-12-09
+
+- 题库无 CVE。按镜像日期与 Vulfocus 复现校正为 **CVE-2021-44228**；入口 `POST /hello`、`payload=`。与第133题 4104 区分。
+- 来源 4 个。
+
+### 第135题｜Monstra CVE-2020-13384
+
+- 完成后台 Files Manager 认证上传。本题 Vulfocus 复现 `.php7` 不解析、改 `.phar`。
+- 来源 6 个。
+
+### 第136题｜Mutillidae（无 CVE）
+
+- 多漏洞练习：Setup/降安全级别、登录用户名 SQLi、DNS Lookup 命令注入。未找到 Vulfocus 专属 WP。
+- 来源 6 个。
+
+### 第137题｜Nagios XI CVE-2018-8733
+
+- 8733 只覆盖 `settings.php` 未授权改库；公开根权限还需 8734→加用户→8735/8736。与 067/068/069 入口区分。
+- 来源 4 个。
+
+### 第138题｜OFBiz CVE-2018-8033
+
+- 官方是 `/webtools/control/httpService` 两段式 XXE，不是 XML-RPC；补丁 16.11.05。与 081 SOAP 反序列化区分。
+- 来源 3 个。
+
+### 第139题｜OpenTSDB
+
+- 镜像名 `cev` 笔误，校正为 **CVE-2020-35476**。题库无端口；公开复现 4242、`yrange` 的 `system()`。
+- 来源 3 个。
+
+### 第140题｜php-ssrf（待补）
+
+- Docker Hub 有镜像、无 overview。未找到本题入口/参数/协议，不编造 gopher/file 链。
+- 来源 1 个。
+
+### 第141题｜Rails CVE-2018-3760
+
+- 与第091题同一 Sprockets `%252e%252e/` 链。为本镜像另建卡片。
+- 来源 3 个。
+
+### 第142题｜Rails CVE-2019-5418
+
+- `Accept: ../../../../../../../../etc/passwd{{` 打 `/robots`；不要抄 PoC demo 的 `/chybeta`。
+- 来源 4 个。
+
+### 第143题｜Shiro CVE-2016-4437
+
+- Shiro-550 默认密钥 `rememberMe` 反序列化。与 1957/11989/32532 路径绕过区分；ysoserial 重定向需二进制安全写法。
+- 来源 4 个。
+
+### 第144题｜Spring Security OAuth CVE-2016-4977
+
+- `/oauth/authorize?response_type=${}`；题库无端口，公开复现 8080。必须认证且带齐 OAuth 参数。
+- 来源 4 个。
+
+### 第145题｜Spring Messaging CVE-2018-1270
+
+- SockJS `/gs-guide-websocket` 的 STOMP `selector` SpEL；只 SUBSCRIBE 不够，必须再 `SEND /app/hello`。与 CVE-2018-1273 区分。
+- 来源 5 个。
+
+### 第146题｜Spring Cloud Config CVE-2020-5410
+
+- HTTP `8888` 的 `..%252F` + `%23` 穿越；`9999` 未在该 CVE 复现中作为入口。与 5405 `(_)` 链区分。
+- 来源 5 个。
+
+### 第147题｜sqli-labs（无 CVE）
+
+- 多关卡靶场；题库未指定 Less。整理 Less-1 至 Less-10 闭合/类型速查，先看页面编号再套。
+- 来源 4 个。
+
+### 第148题｜OpenSSH CVE-2020-15778
+
+- 已认证客户端 scp 目的路径反引号，命令在远端 sshd 执行。题库未给账号；OpenSSH 9.0+ 需 `-O`。NVD DISPUTED。
+- 来源 6 个。
+
+### 第149题｜Struts2 CVE-2017-5638
+
+- S2-045 `Content-Type` OGNL，头内仍须含 `multipart/form-data`。PowerShell 单引号避免 `%{` 当脚本块。
+- 来源 4 个。
+
+### 第150题｜ThinkPHP 5.0.24（待补）
+
+- 5.0.24 是官方对 5.0.0–5.0.23 `Request::method` RCE 的修复版。不套 `invokefunction` / `_method=__construct`。公开 POP 反序列化需应用层 `unserialize()`，本题镜像 sink 未证实。
+- 来源 6 个。
+
 ## 工作约定
 
 - 卡片只总结直接相关技术复现、PoC 与官方资料；不保存原文、不做靶场实测、不写 Flag。

@@ -124,31 +124,31 @@
 123,vulfocus/cuppacms-cve_2020_26048,CVE-2020-26048,已整理：CuppaCMS 认证后上传图片再 rename 为 PHP,3,继续整理第124题
 124,vulfocus/discuzml-CVE-2019-13956,CVE-2019-13956,已整理：Discuz!ML language Cookie 注入 phpinfo,3,继续整理第125题
 125,vulfocus/discuz-wooyun-2010-080723,wooyun-2010-080723; wooyun_2010,已整理：Discuz 6/7 Cookie 覆盖 GLOBALS smilies /e,3,继续按题库顺序整理第126题
-126,vulfocus/drupal-CVE-2018-7602,CVE-2018-7602,待整理,0,读取本题CSV行和对应来源；提炼卡片
-127,vulfocus/greencms-CVE-2018-12604,CVE-2018-12604,待整理,0,读取本题CSV行和对应来源；提炼卡片
-128,vulfocus/gxlcms-CVE-2018-14685,CVE-2018-14685,待整理,0,读取本题CSV行和对应来源；提炼卡片
-129,vulfocus/hackademic,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-130,vulfocus/hadoop,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-131,vulfocus/jspwiki（CVE-2021-44140）,CVE-2021-44140,待整理,0,读取本题CSV行和对应来源；提炼卡片
-132,vulfocus/juice-shop,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-133,vulfocus/log4j2-CVE-2021-4104,CVE-2021-4104,待整理,0,读取本题CSV行和对应来源；提炼卡片
-134,vulfocus/log4j2-rce-2021-12-09,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-135,vulfocus/monstra-CVE-2020-13384,CVE-2020-13384,待整理,0,读取本题CSV行和对应来源；提炼卡片
-136,vulfocus/mutillidae,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-137,vulfocus/nagios-cve_2018_8733,CVE-2018-8733,待整理,0,读取本题CSV行和对应来源；提炼卡片
-138,vulfocus/ofbiz-cve_2018_8033,CVE-2018-8033,待整理,0,读取本题CSV行和对应来源；提炼卡片
-139,vulfocus/opentsdb-cev-2020-35476,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-140,vulfocus/php-ssrf,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-141,vulfocus/rails-CVE-2018-3760,CVE-2018-3760,待整理,0,读取本题CSV行和对应来源；提炼卡片
-142,vulfocus/rails-CVE-2019-5418,CVE-2019-5418,待整理,0,读取本题CSV行和对应来源；提炼卡片
-143,vulfocus/shiro-CVE-2016-4437,CVE-2016-4437,待整理,0,读取本题CSV行和对应来源；提炼卡片
-144,vulfocus/spring-cve_2016_4977,CVE-2016-4977,待整理,0,读取本题CSV行和对应来源；提炼卡片
-145,vulfocus/spring-cve_2018_1270,CVE-2018-1270,待整理,0,读取本题CSV行和对应来源；提炼卡片
-146,vulfocus/spring-CVE-2020-5410,CVE-2020-5410,待整理,0,读取本题CSV行和对应来源；提炼卡片
-147,vulfocus/sqli-labs,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-148,vulfocus/ssh-cve_2020_15778,CVE-2020-15778,待整理,0,读取本题CSV行和对应来源；提炼卡片
-149,vulfocus/struts2-CVE-2017-5638,CVE-2017-5638,待整理,0,读取本题CSV行和对应来源；提炼卡片
-150,vulfocus/thinkphp-5.0.24,,待整理,0,读取本题CSV行和对应来源；提炼卡片
+126,vulfocus/drupal-CVE-2018-7602,CVE-2018-7602,已整理：Drupalgeddon3 已认证 #post_render RCE,5,第126–150题本批已完成；继续按题库顺序整理第151题
+127,vulfocus/greencms-CVE-2018-12604,CVE-2018-12604,已整理：GreenCMS Data/Log 日志文件泄露（非 RCE）,4,第126–150题本批已完成；继续按题库顺序整理第151题
+128,vulfocus/gxlcms-CVE-2018-14685,CVE-2018-14685,已整理：Gxlcms Tpl-ADD |/* 占位文件读取（同 039）,2,第126–150题本批已完成；继续按题库顺序整理第151题
+129,vulfocus/hackademic,,已整理：Hackademic 10 关练习（非单一 RCE）,9,第126–150题本批已完成；继续按题库顺序整理第151题
+130,vulfocus/hadoop,,已整理：YARN RM REST 未授权提交应用（题库无端口；Hub 8088）,5,第126–150题本批已完成；继续按题库顺序整理第151题
+131,vulfocus/jspwiki（CVE-2021-44140）,CVE-2021-44140,已整理：JSPWiki Logout JSPWikiUID 任意文件删除,6,第126–150题本批已完成；继续按题库顺序整理第151题
+132,vulfocus/juice-shop,,已整理：Juice Shop 计分板多挑战（非单一 RCE）,5,第126–150题本批已完成；继续按题库顺序整理第151题
+133,vulfocus/log4j2-CVE-2021-4104,CVE-2021-4104,已整理：Log4j 1.2 JMSAppender（非 Log4Shell）；本题 HTTP 入口待补,5,镜像 HTTP 入口未由本题资料确认；发现专属题解后再补
+134,vulfocus/log4j2-rce-2021-12-09,CVE-2021-44228,已整理：题库无 CVE，校正为 CVE-2021-44228；POST /hello payload JNDI,4,编号已按 Log4Shell 公开日与镜像复现校正
+135,vulfocus/monstra-CVE-2020-13384,CVE-2020-13384,已整理：Monstra Files Manager 认证上传 php7/phar,6,第126–150题本批已完成；继续按题库顺序整理第151题
+136,vulfocus/mutillidae,,已整理：Mutillidae II 多漏洞练习（登录 SQLi + DNS Lookup）,6,第126–150题本批已完成；继续按题库顺序整理第151题
+137,vulfocus/nagios-cve_2018_8733,CVE-2018-8733,已整理：Nagios XI 8733 改库串联 8734–8736 RCE,4,第126–150题本批已完成；继续按题库顺序整理第151题
+138,vulfocus/ofbiz-cve_2018_8033,CVE-2018-8033,已整理：OFBiz httpService XXE（非 XML-RPC）,3,第126–150题本批已完成；继续按题库顺序整理第151题
+139,vulfocus/opentsdb-cev-2020-35476,CVE-2020-35476,已整理：镜像名 cev 笔误；CVE-2020-35476 yrange 命令注入,3,编号已按镜像名笔误校正；题库无端口，公开复现 4242
+140,vulfocus/php-ssrf,,待补链路：镜像存在但无入口/参数/协议题解,1,不编造 gopher/file 通用链；发现本题镜像专属题解后再补
+141,vulfocus/rails-CVE-2018-3760,CVE-2018-3760,已整理：Sprockets 二次解码 %252e%252e/ 读文件（同 091）,3,第126–150题本批已完成；继续按题库顺序整理第151题
+142,vulfocus/rails-CVE-2019-5418,CVE-2019-5418,已整理：Rails Accept 头 {{ 闭合读文件,4,第126–150题本批已完成；继续按题库顺序整理第151题
+143,vulfocus/shiro-CVE-2016-4437,CVE-2016-4437,已整理：Shiro-550 rememberMe 默认密钥反序列化,4,第126–150题本批已完成；继续按题库顺序整理第151题
+144,vulfocus/spring-cve_2016_4977,CVE-2016-4977,已整理：OAuth authorize response_type SpEL；题库无端口,4,第126–150题本批已完成；继续按题库顺序整理第151题
+145,vulfocus/spring-cve_2018_1270,CVE-2018-1270,已整理：STOMP selector SpEL；须 SEND /app/hello 触发,5,第126–150题本批已完成；继续按题库顺序整理第151题
+146,vulfocus/spring-CVE-2020-5410,CVE-2020-5410,已整理：Config Server ..%252F + %23 目录穿越（HTTP 8888）,5,第126–150题本批已完成；继续按题库顺序整理第151题
+147,vulfocus/sqli-labs,,已整理：sqli-labs 多关卡；整理 Less-1 至 Less-10,4,第126–150题本批已完成；继续按题库顺序整理第151题
+148,vulfocus/ssh-cve_2020_15778,CVE-2020-15778,已整理：scp 目的路径反引号注入（需 SSH 账号；NVD DISPUTED）,6,第126–150题本批已完成；继续按题库顺序整理第151题
+149,vulfocus/struts2-CVE-2017-5638,CVE-2017-5638,已整理：S2-045 Content-Type OGNL,4,第126–150题本批已完成；继续按题库顺序整理第151题
+150,vulfocus/thinkphp-5.0.24,,待补链路：5.0.24 为官方修复版，不套 5.0.23 默认 RCE,6,默认路由无已证实 RCE；反序列化需应用层 unserialize，发现镜像 sink 后再补
 151,vulfocus/vulfocus-api,,已整理：平台 API 组件，非漏洞靶场,4,第151题完成；继续按题库顺序整理第152题
 152,vulfocus/vulfocus-web,,已整理：平台 Web 前端，非漏洞靶场,4,第152题完成；继续按题库顺序整理第153题
 153,vulfocus/webgrind-CVE-2018-12909,CVE-2018-12909,已整理：fileviewer 未授权读文件,4,第153题完成；继续按题库顺序整理第154题

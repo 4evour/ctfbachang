@@ -221,16 +221,16 @@ Redis Lua沙盒绕过 命令执行（CVE-2022-0543）,CVE-2022-0543,6379,cards/0
 redis 未授权访问 (CNVD-2019-21763),CNVD-2019-21763,6379,,0
 SaltStack 认证绕过（CVE-2020-11651）,CVE-2020-11651,"22,4505,4506,8000",,0
 saltstack 远程命令执行 (CVE-2020-16846),CVE-2020-16846,"22,4505,4506,8000",,0
-shiro-721 代码执行,,8080,,0
-showdoc 文件上传 （cnvd-2020-26585）,CNVD-2020-26585,"80,3306",,0
-skywalking SQL注入 （CVE-2020-9483）,CVE-2020-9483,8080,,0
-spring 代码执行 (CVE-2017-4971),CVE-2017-4971,8080,,0
-spring 代码执行 (CVE-2017-8046),CVE-2017-8046,8080,,0
-spring-boot-whitelabel-spel,,9090,,0
-struts2 代码执行 （CVE-2020-17530）,CVE-2020-17530,8080,,0
-thinkadmin 目录遍历 （CVE-2020-25540）,CVE-2020-25540,"80,3306,8000",,0
-thinkcmf 代码执行 （CVE-2019-7580）,CVE-2019-7580,"80,3306",,0
-thinkphp3.2.x 代码执行,,"80,3306",,0
+shiro-721 代码执行,CVE-2019-12422,8080,cards/223_shiro-721.md,6
+showdoc 文件上传 （cnvd-2020-26585）,CNVD-2020-26585,"80,3306",cards/224_CNVD-2020-26585_showdoc.md,6
+skywalking SQL注入 （CVE-2020-9483）,CVE-2020-9483,8080,cards/225_CVE-2020-9483_skywalking.md,5
+spring 代码执行 (CVE-2017-4971),CVE-2017-4971,8080,cards/226_CVE-2017-4971_spring.md,5
+spring 代码执行 (CVE-2017-8046),CVE-2017-8046,8080,cards/227_CVE-2017-8046_spring.md,5
+spring-boot-whitelabel-spel,,9090,cards/228_spring-boot-whitelabel-spel.md,5
+struts2 代码执行 （CVE-2020-17530）,CVE-2020-17530,8080,cards/229_CVE-2020-17530_struts2.md,5
+thinkadmin 目录遍历 （CVE-2020-25540）,CVE-2020-25540,"80,3306,8000",cards/230_CVE-2020-25540_thinkadmin.md,5
+thinkcmf 代码执行 （CVE-2019-7580）,CVE-2019-7580,"80,3306",cards/231_CVE-2019-7580_thinkcmf.md,6
+thinkphp3.2.x 代码执行,,"80,3306",cards/232_thinkphp3.2.x.md,6
 tomcat 文件上传 (CVE-2017-12615),CVE-2017-12615,8080,cards/03_CVE-2017-12615_tomcat.md,4
 vulfocus/dvwa,,"80,3306",,0
 vulfocus/pikachu,,"80,3306",,0

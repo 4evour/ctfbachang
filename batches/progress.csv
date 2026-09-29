@@ -221,16 +221,16 @@
 220,redis 未授权访问 (CNVD-2019-21763),CNVD-2019-21763,待整理,0,读取本题CSV行和对应来源；提炼卡片
 221,SaltStack 认证绕过（CVE-2020-11651）,CVE-2020-11651,待整理,0,读取本题CSV行和对应来源；提炼卡片
 222,saltstack 远程命令执行 (CVE-2020-16846),CVE-2020-16846,待整理,0,读取本题CSV行和对应来源；提炼卡片
-223,shiro-721 代码执行,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-224,showdoc 文件上传 （cnvd-2020-26585）,CNVD-2020-26585,待整理,0,读取本题CSV行和对应来源；提炼卡片
-225,skywalking SQL注入 （CVE-2020-9483）,CVE-2020-9483,待整理,0,读取本题CSV行和对应来源；提炼卡片
-226,spring 代码执行 (CVE-2017-4971),CVE-2017-4971,待整理,0,读取本题CSV行和对应来源；提炼卡片
-227,spring 代码执行 (CVE-2017-8046),CVE-2017-8046,待整理,0,读取本题CSV行和对应来源；提炼卡片
-228,spring-boot-whitelabel-spel,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-229,struts2 代码执行 （CVE-2020-17530）,CVE-2020-17530,待整理,0,读取本题CSV行和对应来源；提炼卡片
-230,thinkadmin 目录遍历 （CVE-2020-25540）,CVE-2020-25540,待整理,0,读取本题CSV行和对应来源；提炼卡片
-231,thinkcmf 代码执行 （CVE-2019-7580）,CVE-2019-7580,待整理,0,读取本题CSV行和对应来源；提炼卡片
-232,thinkphp3.2.x 代码执行,,待整理,0,读取本题CSV行和对应来源；提炼卡片
+223,shiro-721 代码执行,CVE-2019-12422,已整理：rememberMe Padding Oracle（题库无CVE，对应12422）,6,继续整理第224题
+224,showdoc 文件上传 （cnvd-2020-26585）,CNVD-2020-26585,已整理：uploadImg 未授权 <>php 上传,6,继续整理第225题
+225,skywalking SQL注入 （CVE-2020-9483）,CVE-2020-9483,已整理：GraphQL getLinearIntValues id 注入,5,继续整理第226题
+226,spring 代码执行 (CVE-2017-4971),CVE-2017-4971,已整理：Web Flow 确认页 _ 前缀 SpEL（非4977）,5,继续整理第227题
+227,spring 代码执行 (CVE-2017-8046),CVE-2017-8046,已整理：Data REST PATCH json-patch path SpEL,5,继续整理第228题
+228,spring-boot-whitelabel-spel,,已整理：/article?id=${} Whitelabel SpEL,5,继续整理第229题
+229,struts2 代码执行 （CVE-2020-17530）,CVE-2020-17530,已整理：S2-061 multipart id OGNL（非S2-059）,5,继续整理第230题
+230,thinkadmin 目录遍历 （CVE-2020-25540）,CVE-2020-25540,已整理：api.Update node/get encode,5,继续整理第231题
+231,thinkcmf 代码执行 （CVE-2019-7580）,CVE-2019-7580,已整理：后台 alias 写 route.php（非 fetch）,6,继续整理第232题
+232,thinkphp3.2.x 代码执行,,已整理：日志写入 + value[_filename]（非TP5/TP2）,6,第223–232题本批已完成
 233,tomcat 文件上传 (CVE-2017-12615),CVE-2017-12615,已有卡片；冻结，不纳入本轮返工,4,除非用户提出修改或发现具体事实错误，否则不返工
 234,vulfocus/dvwa,,待整理,0,读取本题CSV行和对应来源；提炼卡片
 235,vulfocus/pikachu,,待整理,0,读取本题CSV行和对应来源；提炼卡片

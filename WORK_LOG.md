@@ -390,6 +390,19 @@
 - 5.0.24 是官方对 5.0.0–5.0.23 `Request::method` RCE 的修复版。不套 `invokefunction` / `_method=__construct`。公开 POP 反序列化需应用层 `unserialize()`，本题镜像 sink 未证实。
 - 来源 6 个。
 
+### 第223–232题｜本批整理（2026-09-29）
+
+- 223 Shiro-721：题库无 CVE，对应 CVE-2019-12422；合法 rememberMe + Padding Oracle，非 550 默认密钥、非路径绕过。来源 6。
+- 224 ShowDoc CNVD-2020-26585：`/index.php?s=/home/page/uploadImg`，`test.<>php`，版本 2.8.2/≤2.8.6。来源 6。
+- 225 SkyWalking CVE-2020-9483：`POST /graphql` 的 `getLinearIntValues.metric.id`，不用 `queryLogs.metricName`。来源 5。
+- 226 Spring CVE-2017-4971：Web Flow 确认页 `_` 参数名 SpEL，非 144 题 OAuth 4977。来源 5。
+- 227 Spring CVE-2017-8046：PATCH `application/json-patch+json` 的 `path` SpEL。来源 5。
+- 228 spring-boot-whitelabel-spel：无 CVE；路径 `/article?id=`，题库端口 9090。来源 5。
+- 229 Struts2 CVE-2020-17530：S2-061 multipart `id`，非 S2-059。来源 5。
+- 230 ThinkAdmin CVE-2020-25540：`api.Update/node` 与 `get/encode`。来源 5。
+- 231 ThinkCMF CVE-2019-7580：后台 `alias` 写 `route.php`，不是 `a=fetch`。来源 6。
+- 232 ThinkPHP 3.2.x：日志 + `value[_filename]`，不套 TP5 invokefunction / TP2 preg_replace `/e`。来源 6。
+
 ## 工作约定
 
 - 卡片只总结直接相关技术复现、PoC 与官方资料；不保存原文、不做靶场实测、不写 Flag。

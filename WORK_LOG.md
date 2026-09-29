@@ -403,6 +403,57 @@
 - 231 ThinkCMF CVE-2019-7580：后台 `alias` 写 `route.php`，不是 `a=fetch`。来源 6。
 - 232 ThinkPHP 3.2.x：日志 + `value[_filename]`，不套 TP5 invokefunction / TP2 preg_replace `/e`。来源 6。
 
+## 本轮新增/核对记录（2026-09-29｜第201–249题）
+
+基于最新 `main`（已含 126–150）新建分支，整理 201–249。冻结 **202 / 219 / 233 / 238 / 248** 未返工。未实测、未写 Flag、不下载整篇原文。`index.csv` / `progress.csv` 只改本批行。
+
+### 编号校正
+
+- **207**：CVE-2018-7314 官方是 PrayerCenter `sessionid`，不是核心 `com_fields`（CVE-2017-8917）。
+- **212**：CVE-2019-7238 是 Nexus `previewAssets` JEXL，不是 GitLab ExifTool。
+- **213**：题库标「命令执行」；官方是 nginx `resolver` DNS off-by-one，不是 HTTP 命令注入。
+- **214**：CVE-2021-26295 是 SOAP + RMI，不是 XML-RPC（215 / 9496），也不是 30128 / 8033。
+- **216**：用户名枚举，不是 RCE。
+- **217**：`render` locals 键名注入，不是 Marshal / `__proto__`。
+- **220**：CNVD-2019-21763 是 4.x+ module/rogue replica，不是 crontab，不是 CVE-2015-4335。
+- **221**：ZeroMQ ClearFuncs，不是 salt-api（093 / 222）。
+- **223**：题库无 CVE，对应 **CVE-2019-12422** / SHIRO-721。
+- **231**：后台 `alias` 写 `route.php`，不是 2.x `a=fetch`。
+- **236**：`ws_utc` 上传，不是 wls-wsat / 14882。
+- **237**：T3 StreamMessageImpl 走 7001，不是 5556 Node Manager。
+- **239**：官方是已登录 CSRF→`/proc/run.cgi`，不是未授权 RCE（亦非 15107/15642/0824）。
+- **247**：无 CVE；是 9.1.2 `block orderBy`，不是 16.5 登录框 CNVD-2022-42853。
+- **249**：注入点是 `search`，不是 `path`。
+
+### 待补
+
+- **207**：镜像是否含 PrayerCenter 未证实。
+- **213**：无公开 HTTP/命令执行链，不编造。
+- **217**：本题镜像具体参数名（`ender`/`loc` 等）未找到。
+- **231**：后台默认口令未由本题资料给出。
+- **236**：本题镜像控制台口令待补。
+- **239**：镜像是否 `setup.pl`（referrer 关闭）待补。
+- **240**：Author 账号待补；完整 RCE 常需拼 8942。
+- **241**：WP 用户名与 MTA 待补。
+- **243**：Hub 镜像名与 HTTP 路由未找到；仅有官方 XML。
+- **244**：题库端口 8008 在公开复现中未作为入口。
+
+### 第201–222、234–249题｜要点
+
+- **201** GetSimple 11231：XML 泄露 + Cookie 伪造 + theme-edit。来源 5。
+- **203** Jackson 7525：TemplatesImpl；`/exploit` 仅 Vulhub 演示入口。来源 6。
+- **204 / 205** JBoss：`/invoker/readonly` vs `/invoker/JMXInvokerServlet`。来源 4 / 5。
+- **206** Joomla 7857：`list[select]`，`list[ordering]` 必须空。来源 5。
+- **208 / 209** Laravel：`/.env` vs Ignition PHAR。来源 4 / 6。
+- **210** libssh：paramiko `USERAUTH_SUCCESS`。来源 5。
+- **211** Hystrix `proxy.stream?origin=`。来源 5。
+- **215** OFBiz XML-RPC CommonsBeanutils1。来源 5。
+- **218** 与第142题同 CVE-2019-5418，`/robots` + Accept。来源 4。
+- **222** `/run` + `ssh_priv`，串 25592。来源 4。
+- **234 / 235** DVWA / Pikachu 多漏洞练习，不编造单条 RCE。来源 5 / 5。
+- **242 / 244** XStream 21351 JNDI vs 29505 JRMP（勿用官网错误 XML）。来源 4 / 4。
+- **245 / 246** Zabbix trapper 10051；11800 用 IPv6 `ffff:::`，2824 用 `;cmd`。来源 4 / 4。
+
 ## 工作约定
 
 - 卡片只总结直接相关技术复现、PoC 与官方资料；不保存原文、不做靶场实测、不写 Flag。

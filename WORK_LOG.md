@@ -390,6 +390,55 @@
 - 5.0.24 是官方对 5.0.0–5.0.23 `Request::method` RCE 的修复版。不套 `invokefunction` / `_method=__construct`。公开 POP 反序列化需应用层 `unserialize()`，本题镜像 sink 未证实。
 - 来源 6 个。
 
+## 本轮新增/核对记录（2026-09-29｜第151–200题）
+
+第079–150题由其他分支负责（079–125 已合入；126–150 另有开放 PR），本轮**不重做**；本批从第151题起到第200题。
+
+### 第151–200题｜批量整理
+
+- 按题库顺序新建 50 张卡片与对应 `sources/<目录>/_meta.md`；统一回写 `index.csv`、`batches/progress.csv`。未实测、未写 Flag。PowerShell 示例注意引号与 `|`、二进制 body。
+- **151–152** `vulfocus-api` / `vulfocus-web`：平台前后端，不是漏洞靶场；待补利用链不编造。来源各 4。
+- **153 / 170** Webgrind（CVE-2018-12909）：`op=fileviewer&file=`；两条目录同一 CVE。来源 4 / 3。
+- **154** 题库只标 CVE-2020-14883：公开链为 **14882+14883**；10.3.6 无 ShellSession 改 XML。来源 5。
+- **155** CVE-2014-4210：UDDI `operator` SSRF。来源 4。
+- **156** CVE-2016-3510：T3 MarshalledObject。来源 4。
+- **157** CVE-2017-3248：T3 JRMPClient；与 2018-2628 Client2 区分。来源 5。
+- **158** CVE-2020-14750：14882 补丁绕过编码变体。来源 4。
+- **159** CVE-2020-14825：LockVersionExtractor，不是控制台 HTTP。来源 5。
+- **160** CVE-2019-15107：`old=test|id`，`user` 必须不存在。来源 4。
+- **161** CVE-2020-35606：Package Updates 换行绕过，**不是** ajaxterm。来源 4。
+- **162 / 180 / 183** CVE-2019-8942：Author crop-image（+8943）。来源 4。
+- **163** CVE-2014-5201：Gallery Objects `viewid` SQLi，**不是** RevSlider。来源 2。
+- **164 / 173** CVE-2018-13137：Events Manager XSS，**不是** Fastest Cache。来源 4。
+- **165 / 182** CVE-2019-15866：Crelly Slider 上传，**不是** Easy WP SMTP。来源 4 / 3。
+- **166** CVE-2018-11528：`sms_check.php?param=`。来源 3。
+- **167** xdebug-rce：DBGp eval，无 CVE。来源 3。
+- **168** xss-labs：多关练习场。来源 4。
+- **169** CVE-2022-23131：`zbx_session` SAML 绕过。来源 4。
+- **171** CVE-2019-15642：认证后 `rpc.cgi`。来源 5。
+- **172** CVE-2022-0824：File Manager 下载+chmod；与 0829 区分。来源 4。
+- **174** CVE-2022-23983：复制保护插件 CSRF，**不是** WP Statistics。来源 3。
+- **175** CVE-2022-0228：Popup Builder `orderby`，**不是** GDPR 插件。来源 4。
+- **176** 题库 `CVE=` 笔误，校正 **CVE-2021-21389** BuddyPress REST 提权。来源 3。
+- **177** CVE-2018-7422：Site Editor `ajax_path`。来源 3。
+- **178** CNVD-2020-50280 对应 **CVE-2020-25213** File Manager 未授权上传。来源 4。
+- **179** CVE-2019-19985：导出 CSV，不是任意文件读。来源 4。
+- **181** CVE-2018-15877：Plainview `ip`，**不是** Calendar。来源 5。
+- **184** YApi Mock `mockJson` 沙箱逃逸，无 CVE。来源 6。
+- **185** CVE-2022-32300：后台 `MailSendID`。来源 4。
+- **186–188** YouPHPTube：5120 认证 SQLi、18662 LiveChat SQLi、5128 Encoder 盲命令注入。来源 3/4/4。
+- **189 / 190** Zimbra：9670 Autodiscover XXE vs 7091 `skin` LFI，不混用。来源各 5。
+- **191** CVE-2016-3088：PUT+MOVE。来源 4。
+- **192** CVE-2019-11580：`multipart/mixed` pdkinstall。来源 4。
+- **193** 题名 **coldfision** 误拼 ColdFusion；CVE-2017-3066 AMF。来源 4。
+- **194** CNVD-2020-27175：后台 MIME 绕过；官网页未打开。来源 4。
+- **195** wooyun-2010-080723：与第125题重复。来源 3。
+- **196** CVE-2019-14234：admin JSONField 键名注入。来源 4。
+- **197** CVE-2021-25646：sampler JS RCE，**不是** 36749 读文件。来源 4。
+- **198** CVE-2017-6920：配置导入 YAML；需 PECL yaml。来源 4。
+- **199** CVE-2018-18086：NVD 确认为 EmpireCMS LoadInMod，不是 e107。来源 4。
+- **200** CVE-2020-17518：`jarfile` 穿越写文件；与 17519 读文件区分。来源 4。
+
 ## 工作约定
 
 - 卡片只总结直接相关技术复现、PoC 与官方资料；不保存原文、不做靶场实测、不写 Flag。

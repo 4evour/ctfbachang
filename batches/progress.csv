@@ -149,56 +149,56 @@
 148,vulfocus/ssh-cve_2020_15778,CVE-2020-15778,已整理：scp 目的路径反引号注入（需 SSH 账号；NVD DISPUTED）,6,第126–150题本批已完成；继续按题库顺序整理第151题
 149,vulfocus/struts2-CVE-2017-5638,CVE-2017-5638,已整理：S2-045 Content-Type OGNL,4,第126–150题本批已完成；继续按题库顺序整理第151题
 150,vulfocus/thinkphp-5.0.24,,待补链路：5.0.24 为官方修复版，不套 5.0.23 默认 RCE,6,默认路由无已证实 RCE；反序列化需应用层 unserialize，发现镜像 sink 后再补
-151,vulfocus/vulfocus-api,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-152,vulfocus/vulfocus-web,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-153,vulfocus/webgrind-CVE-2018-12909,CVE-2018-12909,待整理,0,读取本题CSV行和对应来源；提炼卡片
-154,vulfocus/weblogic-cve_2020_14883,CVE-2020-14883,待整理,0,读取本题CSV行和对应来源；提炼卡片
-155,vulfocus/weblogic-CVE-2014-4210,CVE-2014-4210,待整理,0,读取本题CSV行和对应来源；提炼卡片
-156,vulfocus/weblogic-CVE-2016-3510,CVE-2016-3510,待整理,0,读取本题CSV行和对应来源；提炼卡片
-157,vulfocus/weblogic-CVE-2017-3248,CVE-2017-3248,待整理,0,读取本题CSV行和对应来源；提炼卡片
-158,vulfocus/weblogic-CVE-2020-14750,CVE-2020-14750,待整理,0,读取本题CSV行和对应来源；提炼卡片
-159,vulfocus/weblogic-CVE-2020-14825,CVE-2020-14825,待整理,0,读取本题CSV行和对应来源；提炼卡片
-160,vulfocus/webmin-CVE-2019-15107,CVE-2019-15107,待整理,0,读取本题CSV行和对应来源；提炼卡片
-161,vulfocus/webmin-CVE-2020-35606,CVE-2020-35606,待整理,0,读取本题CSV行和对应来源；提炼卡片
-162,vulfocus/wordpress-cve_2019_8942:latest,CVE-2019-8942,待整理,0,读取本题CSV行和对应来源；提炼卡片
-163,vulfocus/wordpress-CVE-2014-5201,CVE-2014-5201,待整理,0,读取本题CSV行和对应来源；提炼卡片
-164,vulfocus/wordpress-CVE-2018-13137,CVE-2018-13137,待整理,0,读取本题CSV行和对应来源；提炼卡片
-165,vulfocus/wordpress-CVE-2019-15866,CVE-2019-15866,待整理,0,读取本题CSV行和对应来源；提炼卡片
-166,vulfocus/wuzhicms-CVE-2018-11528,CVE-2018-11528,待整理,0,读取本题CSV行和对应来源；提炼卡片
-167,vulfocus/xdebug-rce,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-168,vulfocus/xss-labs,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-169,vulfocus/zabbix-CVE-2022-23131,CVE-2022-23131,待整理,0,读取本题CSV行和对应来源；提炼卡片
-170,webgrind 文件读取 （CVE-2018-12909）,CVE-2018-12909,待整理,0,读取本题CSV行和对应来源；提炼卡片
-171,webmin 远程代码执行 （CVE-2019-15642）,CVE-2019-15642,待整理,0,读取本题CSV行和对应来源；提炼卡片
-172,Webmin 远程代码执行 （CVE-2022-0824）,CVE-2022-0824,待整理,0,读取本题CSV行和对应来源；提炼卡片
-173,wordpress  存储型XSS （ CVE-2018-13137 ）,CVE-2018-13137,待整理,0,读取本题CSV行和对应来源；提炼卡片
-174,wordpress CSRF （CVE-2022-23983）,CVE-2022-23983,待整理,0,读取本题CSV行和对应来源；提炼卡片
-175,wordpress SQL注入 （CVE-2022-0228）,CVE-2022-0228,待整理,0,读取本题CSV行和对应来源；提炼卡片
-176,wordpress 垂直越权 （CVE=2021-21389）,CVE-2021-21389,待整理,0,读取本题CSV行和对应来源；提炼卡片
-177,wordpress 文件包含 （CVE-2018-7422）,CVE-2018-7422,待整理,0,读取本题CSV行和对应来源；提炼卡片
-178,wordpress 文件上传  （CNVD-2020-50280）,CNVD-2020-50280,待整理,0,读取本题CSV行和对应来源；提炼卡片
-179,wordpress 文件下载 （CVE-2019-19985）,CVE-2019-19985,待整理,0,读取本题CSV行和对应来源；提炼卡片
-180,wordpress 远程代码执行 （CVE-2019-8942）,CVE-2019-8942,待整理,0,读取本题CSV行和对应来源；提炼卡片
-181,wordpress 远程命令执行 （CVE-2018-15877）,CVE-2018-15877,待整理,0,读取本题CSV行和对应来源；提炼卡片
-182,wordpress任意文件上传（CVE-2019-15866）,CVE-2019-15866,待整理,0,读取本题CSV行和对应来源；提炼卡片
-183,wordpress远程代码执行（CVE-2019-8942）,CVE-2019-8942,待整理,0,读取本题CSV行和对应来源；提炼卡片
-184,yapi 代码执行,,待整理,0,读取本题CSV行和对应来源；提炼卡片
-185,youdiancms 9.5.0 版本 SQL注入 （CVE-2022-32300）,CVE-2022-32300,待整理,0,读取本题CSV行和对应来源；提炼卡片
-186,youphptube  SQL注入 （CVE-2019-5120）,CVE-2019-5120,待整理,0,读取本题CSV行和对应来源；提炼卡片
-187,youphptube SQL注入 （CVE-2019-18662）,CVE-2019-18662,待整理,0,读取本题CSV行和对应来源；提炼卡片
-188,youphptube 命令执行 （CVE-2019-5128）,CVE-2019-5128,待整理,0,读取本题CSV行和对应来源；提炼卡片
-189,Zimbra 任意文件读取漏洞 （CVE-2019-9670）,CVE-2019-9670,待整理,0,读取本题CSV行和对应来源；提炼卡片
-190,Zimbra 文件读取导致Getshell （CVE-2013-7091）,CVE-2013-7091,待整理,0,读取本题CSV行和对应来源；提炼卡片
-191,activemq 远程代码执行 （CVE-2016-3088）,CVE-2016-3088,待整理,0,读取本题CSV行和对应来源；提炼卡片
-192,atlassian-crowd 命令执行 （CVE-2019-11580）,CVE-2019-11580,待整理,0,读取本题CSV行和对应来源；提炼卡片
-193,coldfision 代码执行 （CVE-2017-3066）,CVE-2017-3066,待整理,0,读取本题CSV行和对应来源；提炼卡片
-194,dcrcms 文件上传 （CNVD-2020-27175）,CNVD-2020-27175,待整理,0,读取本题CSV行和对应来源；提炼卡片
-195,discuz 命令执行 （wooyun-2010-080723）,wooyun-2010-080723; wooyun_2010,待整理,0,读取本题CSV行和对应来源；提炼卡片
-196,django SQL注入（CVE-2019-14234）,CVE-2019-14234,待整理,0,读取本题CSV行和对应来源；提炼卡片
-197,druid 远程命令执行 （CVE-2021-25646）,CVE-2021-25646,待整理,0,读取本题CSV行和对应来源；提炼卡片
-198,drupal 代码执行 (CVE-2017-6920),CVE-2017-6920,待整理,0,读取本题CSV行和对应来源；提炼卡片
-199,empirecms 文件上传 （CVE-2018-18086）,CVE-2018-18086,待整理,0,读取本题CSV行和对应来源；提炼卡片
-200,flink 文件写入 (CVE-2020-17518),CVE-2020-17518,待整理,0,读取本题CSV行和对应来源；提炼卡片
+151,vulfocus/vulfocus-api,,已整理：平台 API 组件，非漏洞靶场,4,第151题完成；继续按题库顺序整理第152题
+152,vulfocus/vulfocus-web,,已整理：平台 Web 前端，非漏洞靶场,4,第152题完成；继续按题库顺序整理第153题
+153,vulfocus/webgrind-CVE-2018-12909,CVE-2018-12909,已整理：fileviewer 未授权读文件,4,第153题完成；继续按题库顺序整理第154题
+154,vulfocus/weblogic-cve_2020_14883（公开链为 CVE-2020-14882+14883）,CVE-2020-14883,已整理：14882+14883 控制台 handle RCE（编号已说明）,5,第154题完成；继续按题库顺序整理第155题
+155,vulfocus/weblogic-CVE-2014-4210,CVE-2014-4210,已整理：UDDI Explorer operator SSRF,4,第155题完成；继续按题库顺序整理第156题
+156,vulfocus/weblogic-CVE-2016-3510,CVE-2016-3510,已整理：T3 MarshalledObject 反序列化,4,第156题完成；继续按题库顺序整理第157题
+157,vulfocus/weblogic-CVE-2017-3248,CVE-2017-3248,已整理：T3 JRMPClient 二次反序列化,5,第157题完成；继续按题库顺序整理第158题
+158,vulfocus/weblogic-CVE-2020-14750,CVE-2020-14750,已整理：14882 补丁绕过后再 handle RCE,4,第158题完成；继续按题库顺序整理第159题
+159,vulfocus/weblogic-CVE-2020-14825,CVE-2020-14825,已整理：Coherence LockVersionExtractor T3/JNDI,5,第159题完成；继续按题库顺序整理第160题
+160,vulfocus/webmin-CVE-2019-15107,CVE-2019-15107,已整理：password_change.cgi 未授权 | 注入,4,第160题完成；继续按题库顺序整理第161题
+161,vulfocus/webmin-CVE-2020-35606,CVE-2020-35606,已整理：认证后 Package Updates 换行绕过,4,第161题完成；继续按题库顺序整理第162题
+162,vulfocus/wordpress-cve_2019_8942:latest,CVE-2019-8942,已整理：Author crop-image 写入主题（+8943）,4,第162题完成；继续按题库顺序整理第163题
+163,vulfocus/wordpress-CVE-2014-5201,CVE-2014-5201,已整理：Gallery Objects viewid SQL 注入,2,第163题完成；继续按题库顺序整理第164题
+164,vulfocus/wordpress-CVE-2018-13137,CVE-2018-13137,已整理：Events Manager 存储型 XSS,4,第164题完成；继续按题库顺序整理第165题
+165,vulfocus/wordpress-CVE-2019-15866,CVE-2019-15866,已整理：Crelly Slider importSlider 上传,4,第165题完成；继续按题库顺序整理第166题
+166,vulfocus/wuzhicms-CVE-2018-11528,CVE-2018-11528,已整理：sms_check.php param SQL 注入,3,第166题完成；继续按题库顺序整理第167题
+167,vulfocus/xdebug-rce,,已整理：Xdebug DBGp eval 回连,3,第167题完成；继续按题库顺序整理第168题
+168,vulfocus/xss-labs,,已整理：多关 XSS 练习场（非单 CVE）,4,第168题完成；继续按题库顺序整理第169题
+169,vulfocus/zabbix-CVE-2022-23131,CVE-2022-23131,已整理：伪造 zbx_session 绕过 SAML SSO,4,第169题完成；继续按题库顺序整理第170题
+170,webgrind 文件读取 （CVE-2018-12909）,CVE-2018-12909,已整理：与第153题同 CVE 的 fileviewer 读文件,3,第170题完成；继续按题库顺序整理第171题
+171,webmin 远程代码执行 （CVE-2019-15642）,CVE-2019-15642,已整理：认证后 rpc.cgi OBJECT 反序列化,5,第171题完成；继续按题库顺序整理第172题
+172,Webmin 远程代码执行 （CVE-2022-0824）,CVE-2022-0824,已整理：File Manager 下载+chmod 后执行 CGI,4,第172题完成；继续按题库顺序整理第173题
+173,wordpress  存储型XSS （ CVE-2018-13137 ）,CVE-2018-13137,已整理：Events Manager 存储型 XSS（同164）,4,第173题完成；继续按题库顺序整理第174题
+174,wordpress CSRF （CVE-2022-23983）,CVE-2022-23983,已整理：复制保护插件设置 CSRF,3,第174题完成；继续按题库顺序整理第175题
+175,wordpress SQL注入 （CVE-2022-0228）,CVE-2022-0228,已整理：Popup Builder csv_file orderby SQL 注入,4,第175题完成；继续按题库顺序整理第176题
+176,wordpress 垂直越权（题库原标 CVE=2021-21389；校正 CVE-2021-21389）,CVE-2021-21389,已整理：BuddyPress REST 垂直提权（编号已校正）,3,第176题完成；继续按题库顺序整理第177题
+177,wordpress 文件包含 （CVE-2018-7422）,CVE-2018-7422,已整理：Site Editor ajax_path 文件包含,3,第177题完成；继续按题库顺序整理第178题
+178,wordpress 文件上传  （CNVD-2020-50280）,CNVD-2020-50280; CVE-2020-25213,已整理：File Manager connector 未授权上传（对应 CVE-2020-25213）,4,第178题完成；继续按题库顺序整理第179题
+179,wordpress 文件下载 （CVE-2019-19985）,CVE-2019-19985,已整理：Email Subscribers 未授权导出 CSV,4,第179题完成；继续按题库顺序整理第180题
+180,wordpress 远程代码执行 （CVE-2019-8942）,CVE-2019-8942,已整理：Author crop-image RCE（同162）,4,第180题完成；继续按题库顺序整理第181题
+181,wordpress 远程命令执行 （CVE-2018-15877）,CVE-2018-15877,已整理：Plainview Activity Monitor ip 命令注入,5,第181题完成；继续按题库顺序整理第182题
+182,wordpress任意文件上传（CVE-2019-15866）,CVE-2019-15866,已整理：Crelly Slider 上传（同165）,3,第182题完成；继续按题库顺序整理第183题
+183,wordpress远程代码执行（CVE-2019-8942）,CVE-2019-8942,已整理：Author crop-image RCE（同162/180）,4,第183题完成；继续按题库顺序整理第184题
+184,yapi 代码执行,,已整理：Mock 脚本 vm 沙箱逃逸,6,第184题完成；继续按题库顺序整理第185题
+185,youdiancms 9.5.0 版本 SQL注入 （CVE-2022-32300）,CVE-2022-32300,已整理：后台 MailSendID SQL 注入,4,第185题完成；继续按题库顺序整理第186题
+186,youphptube  SQL注入 （CVE-2019-5120）,CVE-2019-5120,已整理：AD_Server campaignsVideos id SQL 注入,3,第186题完成；继续按题库顺序整理第187题
+187,youphptube SQL注入 （CVE-2019-18662）,CVE-2019-18662,已整理：LiveChat live_stream_code SQL 注入,4,第187题完成；继续按题库顺序整理第188题
+188,youphptube 命令执行 （CVE-2019-5128）,CVE-2019-5128,已整理：Encoder getImageMP4.php base64Url 命令注入,4,第188题完成；继续按题库顺序整理第189题
+189,Zimbra 任意文件读取漏洞 （CVE-2019-9670）,CVE-2019-9670,已整理：Autodiscover XXE 读 localconfig.xml,5,第189题完成；继续按题库顺序整理第190题
+190,Zimbra 文件读取导致Getshell （CVE-2013-7091）,CVE-2013-7091,已整理：skin LFI 读 LDAP 密码再 SOAP,5,第190题完成；继续按题库顺序整理第191题
+191,activemq 远程代码执行 （CVE-2016-3088）,CVE-2016-3088,已整理：fileserver PUT+MOVE 写 JSP,4,第191题完成；继续按题库顺序整理第192题
+192,atlassian-crowd 命令执行 （CVE-2019-11580）,CVE-2019-11580,已整理：pdkinstall multipart/mixed 上传插件,4,第192题完成；继续按题库顺序整理第193题
+193,coldfision 代码执行 （CVE-2017-3066）（题名误拼 ColdFusion）,CVE-2017-3066,已整理：AMF 反序列化（题名 coldfision 已注明）,4,第193题完成；继续按题库顺序整理第194题
+194,dcrcms 文件上传 （CNVD-2020-27175）,CNVD-2020-27175,已整理：后台上传 MIME 绕过,4,第194题完成；继续按题库顺序整理第195题
+195,discuz 命令执行 （wooyun-2010-080723）,wooyun-2010-080723; wooyun_2010,已整理：Cookie 覆盖 GLOBALS smilies /e（同125）,3,第195题完成；继续按题库顺序整理第196题
+196,django SQL注入（CVE-2019-14234）,CVE-2019-14234,已整理：admin JSONField 过滤键 SQL 注入,4,第196题完成；继续按题库顺序整理第197题
+197,druid 远程命令执行 （CVE-2021-25646）,CVE-2021-25646,已整理：sampler JavaScript 强制开启 RCE,4,第197题完成；继续按题库顺序整理第198题
+198,drupal 代码执行 (CVE-2017-6920),CVE-2017-6920,已整理：配置导入 !php/object YAML,4,第198题完成；继续按题库顺序整理第199题
+199,empirecms 文件上传 （CVE-2018-18086）,CVE-2018-18086,已整理：后台导入模型 include .mod,4,第199题完成；继续按题库顺序整理第200题
+200,flink 文件写入 (CVE-2020-17518),CVE-2020-17518,已整理：/jars/upload filename 穿越写文件,4,第151–200题本批完成；第079–150由其他 PR 负责，不重做；继续第201题
 201,getsimple 远程代码执行 （CVE-2019-11231）,CVE-2019-11231,待整理,0,读取本题CSV行和对应来源；提炼卡片
 202,gitlab 命令执行 （CVE-2021-22205）,CVE-2021-22205,已有卡片；冻结，不纳入本轮返工,3,除非用户提出修改或发现具体事实错误，否则不返工
 203,jackson-databind 反序列化 （CVE-2017-7525）,CVE-2017-7525,待整理,0,读取本题CSV行和对应来源；提炼卡片

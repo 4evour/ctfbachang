@@ -85,7 +85,7 @@
 084,opensmtpd 远程代码执行 （CVE-2020-7247）,CVE-2020-7247,已整理：OpenSMTPD MAIL FROM 注入 + DATA 正文当脚本,3,第079–100题本批已完成；继续按题库顺序整理第101题
 085,pbootcms SQL注入 （CVE-2018-16356）,CVE-2018-16356,已整理：PbootCMS api.php List/index order SQL 注入,4,第079–100题本批已完成；继续按题库顺序整理第101题
 086,phpcollab SQL注入 （CVE-2017-6089）,CVE-2017-6089,已整理：phpCollab 三处未授权删除接口 SQL 注入,3,第079–100题本批已完成；继续按题库顺序整理第101题
-087,phpok 文件上传 （CVE-2018-12491）,CVE-2018-12491,已整理：PHPOK 后台附件白名单/模块 ZIP 上传,3,第079–100题本批已完成；继续按题库顺序整理第101题
+087,phpok 文件上传 （CVE-2018-12491）,CVE-2018-12491,已整理：PHPOK 4.9.032 modulec_control.php import_f ZIP 导入,2,第079–100题本批已完成；继续按题库顺序整理第101题
 088,Piwigo SQL注入 （CVE-2022-26266）,CVE-2022-26266,已整理：Piwigo 后台 pwg.users.getList order SQL 注入,3,第079–100题本批已完成；继续按题库顺序整理第101题
 089,primefaces  远程代码执行（CVE-2017-1000486）,CVE-2017-1000486,已整理：PrimeFaces pfdrid 弱加密 EL 注入,3,第079–100题本批已完成；继续按题库顺序整理第101题
 090,python-pickle 命令执行,,已整理：未找到镜像专属题解；附 Vulhub Flask pickle Cookie 链,2,入口未由本题资料确认；发现 Vulfocus 专属题解后再补

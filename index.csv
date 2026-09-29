@@ -85,7 +85,7 @@ Onlinebookstore 代码执行 （CVE-2020-24115）,CVE-2020-24115,"80,3306",cards
 opensmtpd 远程代码执行 （CVE-2020-7247）,CVE-2020-7247,25,cards/084_CVE-2020-7247_opensmtpd.md,3
 pbootcms SQL注入 （CVE-2018-16356）,CVE-2018-16356,"80,3306",cards/085_CVE-2018-16356_pbootcms.md,4
 phpcollab SQL注入 （CVE-2017-6089）,CVE-2017-6089,"80,3306",cards/086_CVE-2017-6089_phpcollab.md,3
-phpok 文件上传 （CVE-2018-12491）,CVE-2018-12491,"80,3306",cards/087_CVE-2018-12491_phpok.md,3
+phpok 文件上传 （CVE-2018-12491）,CVE-2018-12491,"80,3306",cards/087_CVE-2018-12491_phpok.md,2
 Piwigo SQL注入 （CVE-2022-26266）,CVE-2022-26266,"80,3306",cards/088_CVE-2022-26266_piwigo.md,3
 primefaces  远程代码执行（CVE-2017-1000486）,CVE-2017-1000486,8080,cards/089_CVE-2017-1000486_primefaces.md,3
 python-pickle 命令执行,,8000,cards/090_python-pickle.md,2
